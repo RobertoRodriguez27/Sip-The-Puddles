@@ -6,7 +6,7 @@ import json
 import pandas as pd
 import seaborn
 import matplotlib.pyplot as plot
-import ranking as rank
+import max_heap as rank
 
 
 class User(object):
@@ -79,45 +79,45 @@ class User(object):
         2a. send to artist_popularity() to find out their popularity and save the data to filter them later
     '''
 
-    def recently_played_popularity(self):
-        sp = self.sp
-        recent_raw = sp.current_user_recently_played(10)
-        recent_file = self.create_and_organize_files(recent_raw, 'json data', "", 'recent tracks.json')
+    # def recently_played_popularity(self):
+    #     sp = self.sp
+    #     recent_raw = sp.current_user_recently_played(10)
+    #     recent_file = self.create_and_organize_files(recent_raw, 'json data', "", 'recent tracks.json')
+    #
+    #     '''
+    #     Getting all artist names. should have 50 artists names should repeat
+    #     Artist name and uri is located in:      items/00/track/artists/0  name || id
+    #     Song name and popularity is located in: items/00/track            name || popularity
+    #     '''
+    #     recent_artists_list = []
+    #     recent_popularity_list = []
+    #     scrambled_dict = recent_file.get('items')
+    #     for item in scrambled_dict:
+    #         cur_artist = item.get('track')['name']
+    #         recent_artists_list.append(cur_artist)
+    #
+    #         cur_popularity = item.get('track')['popularity']
+    #         recent_popularity_list.append(cur_popularity)
+    #
+    #     artist_pop = pd.DataFrame(
+    #         {
+    #             'song name': recent_artists_list,
+    #             'popularity': recent_popularity_list
+    #         }
+    #     )
+    #     artist_pop.to_csv('excel files/artists popularity.csv')
+    #
+    #     plot.bar(artist_pop.get('song name'), artist_pop.get('popularity'))
+    #     plot.title("Recent Song's Popularity")
+    #     plot.xlabel('song names')
+    #     plot.ylabel('song popularity')
+    #     plot.show()
 
-        '''
-        Getting all artist names. should have 50 artists names should repeat
-        Artist name and uri is located in:      items/00/track/artists/0  name || id
-        Song name and popularity is located in: items/00/track            name || popularity
-        '''
-        recent_artists_list = []
-        recent_popularity_list = []
-        scrambled_dict = recent_file.get('items')
-        for item in scrambled_dict:
-            cur_artist = item.get('track')['name']
-            recent_artists_list.append(cur_artist)
-
-            cur_popularity = item.get('track')['popularity']
-            recent_popularity_list.append(cur_popularity)
-
-        artist_pop = pd.DataFrame(
-            {
-                'song name': recent_artists_list,
-                'popularity': recent_popularity_list
-            }
-        )
-        artist_pop.to_csv('excel files/artists popularity.csv')
-
-        plot.bar(artist_pop.get('song name'), artist_pop.get('popularity'))
-        plot.title("Recent Song's Popularity")
-        plot.xlabel('song names')
-        plot.ylabel('song popularity')
-        plot.show()
-
-    def song_popularity(self):
-        sp = self.sp
-        pop = sp.artist('3AA28KZvwAUcZuOKwyblJQ')
-        artist = self.create_and_organize_files(pop, 'json data', 'artist pop.json')
-        return artist.get('name')
+    # def song_popularity(self):
+    #     sp = self.sp
+    #     pop = sp.artist('3AA28KZvwAUcZuOKwyblJQ')
+    #     artist = self.create_and_organize_files(pop, 'json data', 'artist pop.json')
+    #     return artist.get('name')
 
     # Binary Tree of Artist's Albums by Popularity #
     '''
@@ -145,7 +145,7 @@ class User(object):
         # get album names and id's
         album_names = []
         # album_ids = []
-        # albums_score = []
+        albums_score = []
         unfiltered_albums = unfiltered_albums.get('items')
         all_albums = {}
         for item in unfiltered_albums:
@@ -157,7 +157,7 @@ class User(object):
                 # album_ids.append(cur_album_ids)
 
                 # albums_pop[cur_album_name] = self.albums_popularity(cur_album_ids, cur_album_name, artist_id)
-                # albums_score.append(self.albums_popularity(cur_album_ids, cur_album_name, artist_id))
+                albums_score.append(self.albums_popularity(cur_album_ids, cur_album_name, artist_id))
                 all_albums[cur_album_name] = self.albums_popularity(cur_album_ids, cur_album_name, artist_id)
 
         # practice = {}
@@ -169,12 +169,14 @@ class User(object):
         # print(practice)
 
         # Below organizes all the artist's albums into a csv file with name and popularity
-        # all_albums = pd.DataFrame(
-        #     {
-        #         'albums name': album_names,
-        #         'album popularity': albums_score
-        #     }
-        # )
+        all_albums = pd.DataFrame(
+            {
+                'albums name': album_names,
+                'album popularity': albums_score
+            }
+        )
+        # print(all_albums)
+        # print(all_albums.size)
         return all_albums
         # all_albums.to_csv('excel files/albums popularity.csv')
 
@@ -220,11 +222,12 @@ class User(object):
         # to other albums
 
     def make(self):
-        tree = rank.Organize(self.all_albums)
+        tree = rank.Heap(self.all_albums)
         # frame = pd.read_json('json data/7album json/artist albums.json', orient='records')
         # print(frame)
 
 
 pt = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
           scope='user-read-recently-played')
+pt.current_song()
 pt.make()
