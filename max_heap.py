@@ -35,6 +35,7 @@ class Heap(object):
         # cur_album = self.heap[hole][0]
         cur_pop = self.heap[hole][1]
 
+
         parent_index = int((hole - 1) / 2)
         # parent_album = self.heap[parent_index][0]
         parent_pop = self.heap[parent_index][1]
