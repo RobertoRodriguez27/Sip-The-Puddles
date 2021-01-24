@@ -1,5 +1,19 @@
 {% extends "layout.html" %}
 {% block current_song %}
-    <h1>home page</h1>
+    <body>
+        <div class="row">
+            <div class="w-80 mx-auto">
+                <button type="button" class="btn btn-outline-info btn-lg">Personal Projects</button>
+<!--                <h2>Computer Science</h2>-->
+            </div>
+            <div class="w-80 mx-auto">
+                <h2>Home Page</h2>
+            </div>
+            <div class="w-80 mx-auto">
+                <button type="button" class="btn btn-outline-info btn-lg">Roberto Rodriguez</button>
+<!--                <h2>Roberto Rodriguez</h2>-->
+            </div>
+        </div>
+    </body>
     currently playing: {{ current_song }}
 {% endblock current_song %}
