@@ -4,7 +4,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy.util as util
 import json
 import pandas as pd
-import seaborn
+import seaborn as sb
 import matplotlib.pyplot as plot
 import max_heap as rank
 
@@ -14,6 +14,24 @@ def fix_illegal_folder_name(folder1, folder2):
         folder1.replace(':', 'a')
     if ':' in folder2:
         folder2.replace(':', 'a')
+
+
+def create_and_organize_files(data=None, folder1=None, folder2="", file=None):
+    if data is None or folder1 is None or file is None:  # data, folder1 and file must be defined
+        raise Exception("Not enough information to create and/or store folder")
+    else:
+        if folder2 != "":  # if there is a sub-folder, check if exists. if not, create one
+            fix_illegal_folder_name(folder1, folder2)
+            new_path = f"C:\\Users\\rober\\PycharmScripts\\Sip The Puddles\\{folder1}\\{folder2}"
+            if not os.path.exists(new_path):
+                os.mkdir(new_path)
+
+        with open(f"{folder1}/{folder2}/{file}", 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+        with open(f"{folder1}/{folder2}/{file}") as f:
+            complete_json_file = json.load(f)
+
+    return complete_json_file
 
 
 class User(object):
@@ -43,29 +61,12 @@ class User(object):
         SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
         self.validate_token(username, scope)
 
-    def create_and_organize_files(self, data=None, folder1=None, folder2="", file=None):
-        if data is None or folder1 is None or file is None:  # data, folder1 and file must be defined
-            raise Exception("Not enough information to create and/or store folder")
-        else:
-            if folder2 != "":  # if there is a sub-folder, check if exists. if not, create one
-                fix_illegal_folder_name(folder1, folder2)
-                new_path = f"C:\\Users\\rober\\PycharmScripts\\Sip The Puddles\\{folder1}\\{folder2}"
-                if not os.path.exists(new_path):
-                    os.mkdir(new_path)
-
-            with open(f"{folder1}/{folder2}/{file}", 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)
-            with open(f"{folder1}/{folder2}/{file}") as f:
-                complete_json_file = json.load(f)
-
-        return complete_json_file
-
     def current_song(self):
         sp = self.sp
         cur = sp.current_user_playing_track()
         if not cur:
             raise Exception("no song is playing")
-        song_name = self.create_and_organize_files(cur, 'json data', "", 'current song.json')
+        song_name = create_and_organize_files(cur, 'json data', "", 'current song.json')
         artist_id = song_name.get('item').get('artists')[0].get('id')
 
         self.all_albums = self.get_album_name_and_ids(artist_id)
@@ -93,12 +94,12 @@ class User(object):
     # 1
     # 1a.
     def get_album_name_and_ids(self, artist_id):
-        self.validate_token('titooooo27', scope='user-read-recently-played')  # idea is that this will make new token with proper scope
+        self.validate_token('titooooo27', scope='user-read-recently-played')
         sp = self.sp
         albums = sp.artist_albums(artist_id=artist_id, album_type='album')
 
-        unfiltered_albums = self.create_and_organize_files(albums, 'json data', f"{artist_id[0]}album json",
-                                                           'artist albums.json')
+        unfiltered_albums = create_and_organize_files(albums, 'json data', f"{artist_id[0]}album json",
+                                                      'artist albums.json')
 
         album_names = []
         albums_score = []
@@ -133,8 +134,8 @@ class User(object):
 
         song_names = []
         song_id = []  # 153: creates new folder for this albums song's json files
-        unfiltered_songs = self.create_and_organize_files(album_tracks, 'json data', f"{artist_id[0]}album json",
-                                                          f"{album_name}.json")
+        unfiltered_songs = create_and_organize_files(album_tracks, 'json data', f"{artist_id[0]}album json",
+                                                     f"{album_name}.json")
         unfiltered_songs = unfiltered_songs.get('items')  # shifts the position of the object to iterate easier
 
         # grab each song's id to later evaluate each song for their pop
@@ -163,8 +164,39 @@ class User(object):
         tree = rank.Heap(self.all_albums)
         tree.print()
 
+    '''
+    Stonkify
+    get user's top 5 artists amd scale them to monthly listeners
+    1. Get user's top 5 artists
+        1a. Does not need to be listening to an artist
+    '''
+
+    def users_top_five(self):
+        self.validate_token('titooooo27', scope='user-top-read')
+        sp = self.sp
+        unfiltered_top_five = create_and_organize_files(sp.current_user_top_artists(limit=5, time_range='medium_term'),
+                                                        'json data', '', 'top artist.json')
+
+        top_five = {}
+        unfiltered_top_five = unfiltered_top_five.get('items')
+        for item in unfiltered_top_five:
+            artist_name = item['name']
+            artist_followers = item['followers'].get('total')
+            top_five[artist_name] = artist_followers
+
+        sb.set_theme(style='whitegrid')
+        df_top_five = pd.DataFrame.from_dict(data=top_five, orient='index')
+        print(df_top_five)
+        bar = sb.barplot(data=df_top_five)
+        bar.set_ylabel('followers')
+        bar.set_xlabel('artists')
+        bar.set_label("titooooo27'")
+        plot.savefig('top_five.jpg')
+
+
 
 pt = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
           scope='user-read-recently-played')
-pt.current_song()
-pt.make()
+pt.users_top_five()
+# pt.current_song()
+# pt.make()
