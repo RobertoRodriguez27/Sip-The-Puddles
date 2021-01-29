@@ -165,10 +165,21 @@ class User(object):
         tree.print()
 
     '''
-    Stonkify
+    Stockify
     get user's top 5 artists amd scale them to monthly listeners
     1. Get user's top 5 artists
         1a. Does not need to be listening to an artist
+        
+    Stockify
+    Description: get the user's top 5 artists (just 5 for now) and scale them based on top monthly listens. Buy a 'spot' 
+    in the current market. wait till end of month to see if you lost spots or gained based on their artist's growth or 
+    decrease in popularity. if you go into debt, the spotify irs will come and get ya
+    1. Get user's top 5 artists
+    2. graph the artists based in popularity
+    3. need to store the user's 'spots' in a database....
+       3a. also need to store all user's spots for an artist  *
+    4. update spot market... only really need to update spot market for all current user's artists  *
+    * more long run investment (:drum: )
     '''
 
     def users_top_five(self):
@@ -184,15 +195,15 @@ class User(object):
             artist_followers = item['followers'].get('total')
             top_five[artist_name] = artist_followers
 
-        sb.set_theme(style='whitegrid')
-        df_top_five = pd.DataFrame.from_dict(data=top_five, orient='index')
-        print(df_top_five)
-        bar = sb.barplot(data=df_top_five)
-        bar.set_ylabel('followers')
-        bar.set_xlabel('artists')
-        bar.set_label("titooooo27'")
-        plot.savefig('top_five.jpg')
+        df_top_five = pd.DataFrame(list(top_five.items()), columns=['artists', 'followers'])
 
+        plot.figure(figsize=(12, 6))  # set up the plot size and title
+        plot.title("Stockify")
+
+        sb.set_theme(style='darkgrid')  # set up the table color and data
+        sb.barplot(x="artists", y="followers", data=df_top_five)
+
+        plot.savefig('top_five.jpg')  # save plot image
 
 
 pt = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
