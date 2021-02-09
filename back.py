@@ -164,50 +164,8 @@ class User(object):
         tree = rank.Heap(self.all_albums)
         tree.print()
 
-    '''
-    Stockify
-    get user's top 5 artists amd scale them to monthly listeners
-    1. Get user's top 5 artists
-        1a. Does not need to be listening to an artist
-        
-    Stockify
-    Description: get the user's top 5 artists (just 5 for now) and scale them based on top monthly listens. Buy a 'spot' 
-    in the current market. wait till end of month to see if you lost spots or gained based on their artist's growth or 
-    decrease in popularity. if you go into debt, the spotify irs will come and get ya
-    1. Get user's top 5 artists
-    2. graph the artists based in popularity
-    3. need to store the user's 'spots' in a database....
-       3a. also need to store all user's spots for an artist  *
-    4. update spot market... only really need to update spot market for all current user's artists  *
-    * more long run investment (:drum: )
-    '''
-
-    def users_top_five(self):
-        self.validate_token('titooooo27', scope='user-top-read')
-        sp = self.sp
-        unfiltered_top_five = create_and_organize_files(sp.current_user_top_artists(limit=5, time_range='medium_term'),
-                                                        'json data', '', 'top artist.json')
-
-        top_five = {}
-        unfiltered_top_five = unfiltered_top_five.get('items')
-        for item in unfiltered_top_five:
-            artist_name = item['name']
-            artist_followers = item['followers'].get('total')
-            top_five[artist_name] = artist_followers
-
-        df_top_five = pd.DataFrame(list(top_five.items()), columns=['artists', 'followers'])
-
-        plot.figure(figsize=(12, 6))  # set up the plot size and title
-        plot.title("Stockify")
-
-        sb.set_theme(style='darkgrid')  # set up the table color and data
-        sb.barplot(x="artists", y="followers", data=df_top_five)
-
-        plot.savefig('top_five.jpg')  # save plot image
-
 
 pt = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
           scope='user-read-recently-played')
-pt.users_top_five()
 # pt.current_song()
 # pt.make()
