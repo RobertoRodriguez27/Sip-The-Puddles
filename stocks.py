@@ -118,7 +118,7 @@ class User(object):
         print(df_results)
 
 
-pt = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
-          scope='user-read-recently-played')
+pt = User('********', '***********', 'username',
+          scope='user-read-recently-played')  # replace with client id, client secret, and username
 # pt.users_top_five()
 pt.search_artist('The Strokes')
