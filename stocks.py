@@ -6,7 +6,7 @@ import json
 import pandas as pd
 import seaborn as sb
 import matplotlib.pyplot as plot
-from glom import glom
+# from glom import glom
 
 '''
      Stockify

@@ -4,8 +4,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy.util as util
 import json
 import pandas as pd
-import seaborn as sb
-import matplotlib.pyplot as plot
+# import seaborn as sb
+# import matplotlib.pyplot as plot
 import max_heap as rank
 
 
@@ -67,9 +67,11 @@ class User(object):
         if not cur:
             raise Exception("no song is playing")
         song_name = create_and_organize_files(cur, 'json data', "", 'current song.json')
-        artist_id = song_name.get('item').get('artists')[0].get('id')
 
-        self.all_albums = self.get_album_name_and_ids(artist_id)
+        return song_name.get('item')['name']
+        # artist_id = song_name.get('item').get('artists')[0].get('id')
+
+        # self.all_albums = self.get_album_name_and_ids(artist_id)
 
     '''
     1. Get the user's recently played songs
@@ -166,6 +168,6 @@ class User(object):
 
 
 pt = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
-          scope='user-read-recently-played')  # replace with your client id, client secret, and username
-# pt.current_song()
+          scope='user-read-currently-playing')  # replace with your client id, client secret, and username
+print(pt.current_song())
 # pt.make()

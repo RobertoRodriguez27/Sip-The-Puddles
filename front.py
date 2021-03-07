@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from back import User
 
-app = Flask(__name__, template_folder='website')
+app = Flask(__name__, template_folder='template_folder')
 # app.run(port='8888')
 
 '''
@@ -10,8 +10,11 @@ set FLASK_APP=front.py
 set FLASK_DEBUG=1
 flask run
 '''
+
+
+# def main():
 cur_user = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
-                scope='user-read-recently-played')
+                scope='user-read-currently-playing')
 
 
 @app.route('/')
@@ -25,6 +28,6 @@ def about():
     return render_template('about.html')
 
 
-if __name__ == '__main__':
-    app.run(port='8888')  # testing this out. if this causes an issue uncomment above app.run(...) and delete this
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(port='8888')  # testing this out. if this causes an issue uncomment above app.run(...) and delete this
+#     app.run(debug=True)
