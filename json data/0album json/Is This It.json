@@ -1,0 +1,384 @@
+{
+    "href": "https://api.spotify.com/v1/albums/1BbxngE1wn7Lzantkvket2/tracks?offset=0&limit=50",
+    "items": [
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "type": "artist",
+                    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+                }
+            ],
+            "available_markets": [
+                "AT",
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "disc_number": 1,
+            "duration_ms": 151333,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/3NsDwT2bM3xPTOwIb2UpaZ"
+            },
+            "href": "https://api.spotify.com/v1/tracks/3NsDwT2bM3xPTOwIb2UpaZ",
+            "id": "3NsDwT2bM3xPTOwIb2UpaZ",
+            "is_local": false,
+            "name": "Is This It",
+            "preview_url": "https://p.scdn.co/mp3-preview/f736006ff25a498bb8d0c96a96a63830c42f83b9?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 1,
+            "type": "track",
+            "uri": "spotify:track:3NsDwT2bM3xPTOwIb2UpaZ"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "type": "artist",
+                    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+                }
+            ],
+            "available_markets": [
+                "AT",
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "disc_number": 1,
+            "duration_ms": 208306,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0iBnbLWSxf27T9vWM9sH9D"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0iBnbLWSxf27T9vWM9sH9D",
+            "id": "0iBnbLWSxf27T9vWM9sH9D",
+            "is_local": false,
+            "name": "The Modern Age",
+            "preview_url": "https://p.scdn.co/mp3-preview/29431096c758fa3eff233cd2b494142409e0da89?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 2,
+            "type": "track",
+            "uri": "spotify:track:0iBnbLWSxf27T9vWM9sH9D"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "type": "artist",
+                    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+                }
+            ],
+            "available_markets": [
+                "AT",
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "disc_number": 1,
+            "duration_ms": 153933,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/45WLrbREqbNZuCep8kRaeg"
+            },
+            "href": "https://api.spotify.com/v1/tracks/45WLrbREqbNZuCep8kRaeg",
+            "id": "45WLrbREqbNZuCep8kRaeg",
+            "is_local": false,
+            "name": "Soma",
+            "preview_url": "https://p.scdn.co/mp3-preview/e08750b9ec12d1c5896eea5032b01c70f0b774d1?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 3,
+            "type": "track",
+            "uri": "spotify:track:45WLrbREqbNZuCep8kRaeg"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "type": "artist",
+                    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+                }
+            ],
+            "available_markets": [
+                "AT",
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "disc_number": 1,
+            "duration_ms": 234733,
+            "explicit": true,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6pUMxE6jwDf0JIZX8zcGp5"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6pUMxE6jwDf0JIZX8zcGp5",
+            "id": "6pUMxE6jwDf0JIZX8zcGp5",
+            "is_local": false,
+            "name": "Barely Legal",
+            "preview_url": "https://p.scdn.co/mp3-preview/b16c92326a22a1a0d5046e93220b257920ee4350?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 4,
+            "type": "track",
+            "uri": "spotify:track:6pUMxE6jwDf0JIZX8zcGp5"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "type": "artist",
+                    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+                }
+            ],
+            "available_markets": [
+                "AT",
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "disc_number": 1,
+            "duration_ms": 183573,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/21AagmRucr35PR2jvwDneF"
+            },
+            "href": "https://api.spotify.com/v1/tracks/21AagmRucr35PR2jvwDneF",
+            "id": "21AagmRucr35PR2jvwDneF",
+            "is_local": false,
+            "name": "Someday",
+            "preview_url": "https://p.scdn.co/mp3-preview/e652c9d5e96caf6fe8070ee918eeb6bb93bb7b88?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 5,
+            "type": "track",
+            "uri": "spotify:track:21AagmRucr35PR2jvwDneF"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "type": "artist",
+                    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+                }
+            ],
+            "available_markets": [
+                "AT",
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "disc_number": 1,
+            "duration_ms": 188800,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1ZFM8WinNIho1m4i1wdavC"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1ZFM8WinNIho1m4i1wdavC",
+            "id": "1ZFM8WinNIho1m4i1wdavC",
+            "is_local": false,
+            "name": "Alone, Together",
+            "preview_url": "https://p.scdn.co/mp3-preview/59a958dbc7d11bcb5d5de334b6b6dac34e2541be?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 6,
+            "type": "track",
+            "uri": "spotify:track:1ZFM8WinNIho1m4i1wdavC"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "type": "artist",
+                    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+                }
+            ],
+            "available_markets": [
+                "AT",
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "disc_number": 1,
+            "duration_ms": 193506,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6npndNDTk2qAXtTag5qDp1"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6npndNDTk2qAXtTag5qDp1",
+            "id": "6npndNDTk2qAXtTag5qDp1",
+            "is_local": false,
+            "name": "Last Nite",
+            "preview_url": "https://p.scdn.co/mp3-preview/dd2111a218b3007e3e23a6be300a87f02aee045a?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 7,
+            "type": "track",
+            "uri": "spotify:track:6npndNDTk2qAXtTag5qDp1"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "type": "artist",
+                    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+                }
+            ],
+            "available_markets": [
+                "AT",
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "disc_number": 1,
+            "duration_ms": 224426,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0lqxXmRwpFULUQQoWFeMeE"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0lqxXmRwpFULUQQoWFeMeE",
+            "id": "0lqxXmRwpFULUQQoWFeMeE",
+            "is_local": false,
+            "name": "Hard To Explain",
+            "preview_url": "https://p.scdn.co/mp3-preview/9484ff3d91fd87567016a9cb7f541987887409d4?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 8,
+            "type": "track",
+            "uri": "spotify:track:0lqxXmRwpFULUQQoWFeMeE"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "type": "artist",
+                    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+                }
+            ],
+            "available_markets": [
+                "AT",
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "disc_number": 1,
+            "duration_ms": 210746,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/5S27qv5gECHZDm0ftLmT5r"
+            },
+            "href": "https://api.spotify.com/v1/tracks/5S27qv5gECHZDm0ftLmT5r",
+            "id": "5S27qv5gECHZDm0ftLmT5r",
+            "is_local": false,
+            "name": "New York City Cops",
+            "preview_url": "https://p.scdn.co/mp3-preview/804e5b0e855a9392f5b4489c8f7d26002e3090de?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 9,
+            "type": "track",
+            "uri": "spotify:track:5S27qv5gECHZDm0ftLmT5r"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "type": "artist",
+                    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+                }
+            ],
+            "available_markets": [
+                "AT",
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "disc_number": 1,
+            "duration_ms": 202960,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/5NHceU4enPfSIQFqChB44K"
+            },
+            "href": "https://api.spotify.com/v1/tracks/5NHceU4enPfSIQFqChB44K",
+            "id": "5NHceU4enPfSIQFqChB44K",
+            "is_local": false,
+            "name": "Trying Your Luck",
+            "preview_url": "https://p.scdn.co/mp3-preview/56f55f2966599d283a4362ce99ada6bec73cf29f?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 10,
+            "type": "track",
+            "uri": "spotify:track:5NHceU4enPfSIQFqChB44K"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                    "id": "0epOFNiUfyON9EYx7Tpr6V",
+                    "name": "The Strokes",
+                    "type": "artist",
+                    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+                }
+            ],
+            "available_markets": [
+                "AT",
+                "CH",
+                "DE",
+                "LI"
+            ],
+            "disc_number": 1,
+            "duration_ms": 196133,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/4oEiFF77r51bgLg3XmofPj"
+            },
+            "href": "https://api.spotify.com/v1/tracks/4oEiFF77r51bgLg3XmofPj",
+            "id": "4oEiFF77r51bgLg3XmofPj",
+            "is_local": false,
+            "name": "Take It Or Leave It",
+            "preview_url": "https://p.scdn.co/mp3-preview/f16ffaa2be53f3047331a8f788da96a54a56ae96?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 11,
+            "type": "track",
+            "uri": "spotify:track:4oEiFF77r51bgLg3XmofPj"
+        }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 11
+}

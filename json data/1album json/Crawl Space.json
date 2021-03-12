@@ -1,0 +1,475 @@
+{
+    "href": "https://api.spotify.com/v1/albums/4NHxJvWRYeZU84HQ4X9FkT/tracks?offset=0&limit=50",
+    "items": [
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 48893,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/3jBNIJPdj1Xsx8LHBxAw4c"
+            },
+            "href": "https://api.spotify.com/v1/tracks/3jBNIJPdj1Xsx8LHBxAw4c",
+            "id": "3jBNIJPdj1Xsx8LHBxAw4c",
+            "is_local": false,
+            "name": "way to record",
+            "preview_url": "https://p.scdn.co/mp3-preview/b3f1aca7ed6b40d4e9efa3b6739ccb087f3f9882?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 1,
+            "type": "track",
+            "uri": "spotify:track:3jBNIJPdj1Xsx8LHBxAw4c"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 199293,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/4w3619w4WWDyvSYd9A2cY4"
+            },
+            "href": "https://api.spotify.com/v1/tracks/4w3619w4WWDyvSYd9A2cY4",
+            "id": "4w3619w4WWDyvSYd9A2cY4",
+            "is_local": false,
+            "name": "Keep Running",
+            "preview_url": "https://p.scdn.co/mp3-preview/9fd268a03fb75a39088493d0801dcf5b14c96dd4?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 2,
+            "type": "track",
+            "uri": "spotify:track:4w3619w4WWDyvSYd9A2cY4"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 229653,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/32wAutaLzQOQW40VeyjcUy"
+            },
+            "href": "https://api.spotify.com/v1/tracks/32wAutaLzQOQW40VeyjcUy",
+            "id": "32wAutaLzQOQW40VeyjcUy",
+            "is_local": false,
+            "name": "Creep",
+            "preview_url": "https://p.scdn.co/mp3-preview/6232271eb76180f73bc4b81810152207eb90d125?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 3,
+            "type": "track",
+            "uri": "spotify:track:32wAutaLzQOQW40VeyjcUy"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 259133,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1oohX41FtAVVOCT1XF4JWm"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1oohX41FtAVVOCT1XF4JWm",
+            "id": "1oohX41FtAVVOCT1XF4JWm",
+            "is_local": false,
+            "name": "Baby",
+            "preview_url": "https://p.scdn.co/mp3-preview/cd3fa662f2cfa3382750d8a9f182c6aa458121be?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 4,
+            "type": "track",
+            "uri": "spotify:track:1oohX41FtAVVOCT1XF4JWm"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 235053,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/2zTzwai0kowjzmMC3wBALU"
+            },
+            "href": "https://api.spotify.com/v1/tracks/2zTzwai0kowjzmMC3wBALU",
+            "id": "2zTzwai0kowjzmMC3wBALU",
+            "is_local": false,
+            "name": "How Far",
+            "preview_url": "https://p.scdn.co/mp3-preview/edc8ccd14345fc0b149530ceb16bc51718ae9d3f?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 5,
+            "type": "track",
+            "uri": "spotify:track:2zTzwai0kowjzmMC3wBALU"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 19186,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0ZPM8UcDy8DjyVd9nMpI1q"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0ZPM8UcDy8DjyVd9nMpI1q",
+            "id": "0ZPM8UcDy8DjyVd9nMpI1q",
+            "is_local": false,
+            "name": "bad singer",
+            "preview_url": null,
+            "track_number": 6,
+            "type": "track",
+            "uri": "spotify:track:0ZPM8UcDy8DjyVd9nMpI1q"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 233426,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/7FsQ55KtBblSNvjOsW0PWT"
+            },
+            "href": "https://api.spotify.com/v1/tracks/7FsQ55KtBblSNvjOsW0PWT",
+            "id": "7FsQ55KtBblSNvjOsW0PWT",
+            "is_local": false,
+            "name": "Say You Do",
+            "preview_url": "https://p.scdn.co/mp3-preview/babec89814f0d612b595d0dc9ac7970da1e6e879?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 7,
+            "type": "track",
+            "uri": "spotify:track:7FsQ55KtBblSNvjOsW0PWT"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 14506,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1y1aIcLe1aXIyvKRaldUmL"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1y1aIcLe1aXIyvKRaldUmL",
+            "id": "1y1aIcLe1aXIyvKRaldUmL",
+            "is_local": false,
+            "name": "bad girl",
+            "preview_url": null,
+            "track_number": 8,
+            "type": "track",
+            "uri": "spotify:track:1y1aIcLe1aXIyvKRaldUmL"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 184280,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/5aY7KsIUhdRl5hCPEEQHEW"
+            },
+            "href": "https://api.spotify.com/v1/tracks/5aY7KsIUhdRl5hCPEEQHEW",
+            "id": "5aY7KsIUhdRl5hCPEEQHEW",
+            "is_local": false,
+            "name": "Justify",
+            "preview_url": "https://p.scdn.co/mp3-preview/9c177dfadcf922f0fd086296bc5e9a981b8d3e22?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 9,
+            "type": "track",
+            "uri": "spotify:track:5aY7KsIUhdRl5hCPEEQHEW"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 213320,
+            "explicit": true,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1t9VmfE1gcgPhLQFzSBRNK"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1t9VmfE1gcgPhLQFzSBRNK",
+            "id": "1t9VmfE1gcgPhLQFzSBRNK",
+            "is_local": false,
+            "name": "Lift Me",
+            "preview_url": "https://p.scdn.co/mp3-preview/f7bb7bcde8d249e3d855decfd150e3d7f90450bf?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 10,
+            "type": "track",
+            "uri": "spotify:track:1t9VmfE1gcgPhLQFzSBRNK"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 203493,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/3XZ6vYnuiTsLIxtSJXnsjH"
+            },
+            "href": "https://api.spotify.com/v1/tracks/3XZ6vYnuiTsLIxtSJXnsjH",
+            "id": "3XZ6vYnuiTsLIxtSJXnsjH",
+            "is_local": false,
+            "name": "Como Si",
+            "preview_url": "https://p.scdn.co/mp3-preview/d00856e6ddaaf5da50023d349b4d20c078eacf75?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 11,
+            "type": "track",
+            "uri": "spotify:track:3XZ6vYnuiTsLIxtSJXnsjH"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 176693,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/57iCMS7H9uHqTg9JtO3mks"
+            },
+            "href": "https://api.spotify.com/v1/tracks/57iCMS7H9uHqTg9JtO3mks",
+            "id": "57iCMS7H9uHqTg9JtO3mks",
+            "is_local": false,
+            "name": "Crawl",
+            "preview_url": "https://p.scdn.co/mp3-preview/0efc5b3f1d644de4ada992b59ab27127cdb42b81?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 12,
+            "type": "track",
+            "uri": "spotify:track:57iCMS7H9uHqTg9JtO3mks"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 294386,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1THFZnnObyO3GbpGT3goIS"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1THFZnnObyO3GbpGT3goIS",
+            "id": "1THFZnnObyO3GbpGT3goIS",
+            "is_local": false,
+            "name": "Year 3k",
+            "preview_url": "https://p.scdn.co/mp3-preview/1e88c17172fb96c64e8539365812bbe5a97df416?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 13,
+            "type": "track",
+            "uri": "spotify:track:1THFZnnObyO3GbpGT3goIS"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 235893,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/3hepnkmybWVovELvk3AvKr"
+            },
+            "href": "https://api.spotify.com/v1/tracks/3hepnkmybWVovELvk3AvKr",
+            "id": "3hepnkmybWVovELvk3AvKr",
+            "is_local": false,
+            "name": "Your World",
+            "preview_url": "https://p.scdn.co/mp3-preview/ac4594274fcbbe6173a2575b68381ba8d1dc9183?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 14,
+            "type": "track",
+            "uri": "spotify:track:3hepnkmybWVovELvk3AvKr"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1xcMOgFUM1IYZE22YjCvsL"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1xcMOgFUM1IYZE22YjCvsL",
+                    "id": "1xcMOgFUM1IYZE22YjCvsL",
+                    "name": "Tei Shi",
+                    "type": "artist",
+                    "uri": "spotify:artist:1xcMOgFUM1IYZE22YjCvsL"
+                }
+            ],
+            "available_markets": [
+                "CA"
+            ],
+            "disc_number": 1,
+            "duration_ms": 266080,
+            "explicit": true,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/5vQffTLUzv9vsLooHc8fJW"
+            },
+            "href": "https://api.spotify.com/v1/tracks/5vQffTLUzv9vsLooHc8fJW",
+            "id": "5vQffTLUzv9vsLooHc8fJW",
+            "is_local": false,
+            "name": "Sleepy",
+            "preview_url": "https://p.scdn.co/mp3-preview/2ae8849d75c9c65fb109902d9ef85d8979d2ccde?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 15,
+            "type": "track",
+            "uri": "spotify:track:5vQffTLUzv9vsLooHc8fJW"
+        }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 15
+}

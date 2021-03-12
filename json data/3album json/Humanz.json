@@ -1,0 +1,976 @@
+{
+    "href": "https://api.spotify.com/v1/albums/0696xC5ne3egtnSXp6T4Yg/tracks?offset=0&limit=50",
+    "items": [
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 24013,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1yTaJRKP74pWDM6errNgVK"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1yTaJRKP74pWDM6errNgVK",
+            "id": "1yTaJRKP74pWDM6errNgVK",
+            "is_local": false,
+            "name": "Intro: I Switched My Robot Off",
+            "preview_url": null,
+            "track_number": 1,
+            "type": "track",
+            "uri": "spotify:track:1yTaJRKP74pWDM6errNgVK"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/68kEuyFKyqrdQQLLsmiatm"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/68kEuyFKyqrdQQLLsmiatm",
+                    "id": "68kEuyFKyqrdQQLLsmiatm",
+                    "name": "Vince Staples",
+                    "type": "artist",
+                    "uri": "spotify:artist:68kEuyFKyqrdQQLLsmiatm"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 155972,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/18gXcIVnvdPgrAWkhEivJI"
+            },
+            "href": "https://api.spotify.com/v1/tracks/18gXcIVnvdPgrAWkhEivJI",
+            "id": "18gXcIVnvdPgrAWkhEivJI",
+            "is_local": false,
+            "name": "Ascension (feat. Vince Staples)",
+            "preview_url": "https://p.scdn.co/mp3-preview/67bf3037e75508a58ed852b99357d9c425e55e8a?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 2,
+            "type": "track",
+            "uri": "spotify:track:18gXcIVnvdPgrAWkhEivJI"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0v2oB2xMS64U3lcU5DFuCY"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0v2oB2xMS64U3lcU5DFuCY",
+                    "id": "0v2oB2xMS64U3lcU5DFuCY",
+                    "name": "Peven Everett",
+                    "type": "artist",
+                    "uri": "spotify:artist:0v2oB2xMS64U3lcU5DFuCY"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 272666,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/4K5zyF7GuPUzIkSUTXcQQI"
+            },
+            "href": "https://api.spotify.com/v1/tracks/4K5zyF7GuPUzIkSUTXcQQI",
+            "id": "4K5zyF7GuPUzIkSUTXcQQI",
+            "is_local": false,
+            "name": "Strobelite (feat. Peven Everett)",
+            "preview_url": "https://p.scdn.co/mp3-preview/bb0a718645cb80a5601ee779caf533d06158fba4?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 3,
+            "type": "track",
+            "uri": "spotify:track:4K5zyF7GuPUzIkSUTXcQQI"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/62DmErcU7dqZbJaDqwsqzR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/62DmErcU7dqZbJaDqwsqzR",
+                    "id": "62DmErcU7dqZbJaDqwsqzR",
+                    "name": "Popcaan",
+                    "type": "artist",
+                    "uri": "spotify:artist:62DmErcU7dqZbJaDqwsqzR"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 181906,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/23kHhoihFmHmjqdaQQIpwF"
+            },
+            "href": "https://api.spotify.com/v1/tracks/23kHhoihFmHmjqdaQQIpwF",
+            "id": "23kHhoihFmHmjqdaQQIpwF",
+            "is_local": false,
+            "name": "Saturnz Barz (feat. Popcaan)",
+            "preview_url": "https://p.scdn.co/mp3-preview/458af51828c1550e4928d6bce492e35079e50fd8?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 4,
+            "type": "track",
+            "uri": "spotify:track:23kHhoihFmHmjqdaQQIpwF"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1Z8ODXyhEBi3WynYw0Rya6"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1Z8ODXyhEBi3WynYw0Rya6",
+                    "id": "1Z8ODXyhEBi3WynYw0Rya6",
+                    "name": "De La Soul",
+                    "type": "artist",
+                    "uri": "spotify:artist:1Z8ODXyhEBi3WynYw0Rya6"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 196905,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6y2UJULeMyGCOKX77rrGy8"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6y2UJULeMyGCOKX77rrGy8",
+            "id": "6y2UJULeMyGCOKX77rrGy8",
+            "is_local": false,
+            "name": "Momentz (feat. De La Soul)",
+            "preview_url": "https://p.scdn.co/mp3-preview/646b9049e4dd3e2b873449580b5cb4eb40042b5b?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 5,
+            "type": "track",
+            "uri": "spotify:track:6y2UJULeMyGCOKX77rrGy8"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 21733,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1Vmwq3In96DsPNBQExfmtv"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1Vmwq3In96DsPNBQExfmtv",
+            "id": "1Vmwq3In96DsPNBQExfmtv",
+            "is_local": false,
+            "name": "Interlude: The Non-Conformist Oath",
+            "preview_url": null,
+            "track_number": 6,
+            "type": "track",
+            "uri": "spotify:track:1Vmwq3In96DsPNBQExfmtv"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7aA592KWirLsnfb5ulGWvU"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7aA592KWirLsnfb5ulGWvU",
+                    "id": "7aA592KWirLsnfb5ulGWvU",
+                    "name": "Danny Brown",
+                    "type": "artist",
+                    "uri": "spotify:artist:7aA592KWirLsnfb5ulGWvU"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1U0sIzpRtDkvu1hXXzxh60"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1U0sIzpRtDkvu1hXXzxh60",
+                    "id": "1U0sIzpRtDkvu1hXXzxh60",
+                    "name": "Kelela",
+                    "type": "artist",
+                    "uri": "spotify:artist:1U0sIzpRtDkvu1hXXzxh60"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 201573,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0Inn8nriQNmN7mu4rfBPQr"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0Inn8nriQNmN7mu4rfBPQr",
+            "id": "0Inn8nriQNmN7mu4rfBPQr",
+            "is_local": false,
+            "name": "Submission (feat. Danny Brown & Kelela)",
+            "preview_url": "https://p.scdn.co/mp3-preview/f429ec893bf05768666640191d137a23fe5ab070?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 7,
+            "type": "track",
+            "uri": "spotify:track:0Inn8nriQNmN7mu4rfBPQr"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2f9ZiYA2ic1r1voObUimdd"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2f9ZiYA2ic1r1voObUimdd",
+                    "id": "2f9ZiYA2ic1r1voObUimdd",
+                    "name": "Grace Jones",
+                    "type": "artist",
+                    "uri": "spotify:artist:2f9ZiYA2ic1r1voObUimdd"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 214386,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0smTRleTwuByEKekBlN0cv"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0smTRleTwuByEKekBlN0cv",
+            "id": "0smTRleTwuByEKekBlN0cv",
+            "is_local": false,
+            "name": "Charger (feat. Grace Jones)",
+            "preview_url": "https://p.scdn.co/mp3-preview/d447401cbba80dfd44d597deb1eb43acc062ed49?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 8,
+            "type": "track",
+            "uri": "spotify:track:0smTRleTwuByEKekBlN0cv"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 4853,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1lmmBR1v16lKC5XrOPGqDK"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1lmmBR1v16lKC5XrOPGqDK",
+            "id": "1lmmBR1v16lKC5XrOPGqDK",
+            "is_local": false,
+            "name": "Interlude: Elevator Going Up",
+            "preview_url": null,
+            "track_number": 9,
+            "type": "track",
+            "uri": "spotify:track:1lmmBR1v16lKC5XrOPGqDK"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 197546,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/7uM92oAiPlRrJyEQNMnsYi"
+            },
+            "href": "https://api.spotify.com/v1/tracks/7uM92oAiPlRrJyEQNMnsYi",
+            "id": "7uM92oAiPlRrJyEQNMnsYi",
+            "is_local": false,
+            "name": "Andromeda (feat. DRAM)",
+            "preview_url": "https://p.scdn.co/mp3-preview/eac086bb9991b317f8adfefbde1967dcd6c33154?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 10,
+            "type": "track",
+            "uri": "spotify:track:7uM92oAiPlRrJyEQNMnsYi"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 277053,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/7dDo0BnnFblCfKadyQbdMr"
+            },
+            "href": "https://api.spotify.com/v1/tracks/7dDo0BnnFblCfKadyQbdMr",
+            "id": "7dDo0BnnFblCfKadyQbdMr",
+            "is_local": false,
+            "name": "Busted and Blue",
+            "preview_url": "https://p.scdn.co/mp3-preview/bc7967c07cdeb380ee9761510051be49ed0e7268?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 11,
+            "type": "track",
+            "uri": "spotify:track:7dDo0BnnFblCfKadyQbdMr"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 19866,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/05E0UuqSXL0uCY8GvRPQK7"
+            },
+            "href": "https://api.spotify.com/v1/tracks/05E0UuqSXL0uCY8GvRPQK7",
+            "id": "05E0UuqSXL0uCY8GvRPQK7",
+            "is_local": false,
+            "name": "Interlude: Talk Radio",
+            "preview_url": null,
+            "track_number": 12,
+            "type": "track",
+            "uri": "spotify:track:05E0UuqSXL0uCY8GvRPQK7"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2DzRMyWgjuMbYvt5BLbpCo"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2DzRMyWgjuMbYvt5BLbpCo",
+                    "id": "2DzRMyWgjuMbYvt5BLbpCo",
+                    "name": "Anthony Hamilton",
+                    "type": "artist",
+                    "uri": "spotify:artist:2DzRMyWgjuMbYvt5BLbpCo"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 135946,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0rYDCjstNVvOasgb8LUiBC"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0rYDCjstNVvOasgb8LUiBC",
+            "id": "0rYDCjstNVvOasgb8LUiBC",
+            "is_local": false,
+            "name": "Carnival (feat. Anthony Hamilton)",
+            "preview_url": "https://p.scdn.co/mp3-preview/801af8bc1bcaaa8aedb5acc46bbccad511df7cba?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 13,
+            "type": "track",
+            "uri": "spotify:track:0rYDCjstNVvOasgb8LUiBC"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0cTSCsVx04SSht9V6cpKN0"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0cTSCsVx04SSht9V6cpKN0",
+                    "id": "0cTSCsVx04SSht9V6cpKN0",
+                    "name": "Mavis Staples",
+                    "type": "artist",
+                    "uri": "spotify:artist:0cTSCsVx04SSht9V6cpKN0"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0ONHkAv9pCAFxb0zJwDNTy"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0ONHkAv9pCAFxb0zJwDNTy",
+                    "id": "0ONHkAv9pCAFxb0zJwDNTy",
+                    "name": "Pusha T",
+                    "type": "artist",
+                    "uri": "spotify:artist:0ONHkAv9pCAFxb0zJwDNTy"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 175813,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/5fISkkgEkSaaBrBgfK87kj"
+            },
+            "href": "https://api.spotify.com/v1/tracks/5fISkkgEkSaaBrBgfK87kj",
+            "id": "5fISkkgEkSaaBrBgfK87kj",
+            "is_local": false,
+            "name": "Let Me Out (feat. Mavis Staples & Pusha T)",
+            "preview_url": "https://p.scdn.co/mp3-preview/95f18b3f29b5af4130b395cb8b6ecd51d0cda6df?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 14,
+            "type": "track",
+            "uri": "spotify:track:5fISkkgEkSaaBrBgfK87kj"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 11666,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0dMDuOgD8CazL8m9eEv5G1"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0dMDuOgD8CazL8m9eEv5G1",
+            "id": "0dMDuOgD8CazL8m9eEv5G1",
+            "is_local": false,
+            "name": "Interlude: Penthouse",
+            "preview_url": null,
+            "track_number": 15,
+            "type": "track",
+            "uri": "spotify:track:0dMDuOgD8CazL8m9eEv5G1"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1U1el3k54VvEUzo3ybLPlM"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1U1el3k54VvEUzo3ybLPlM",
+                    "id": "1U1el3k54VvEUzo3ybLPlM",
+                    "name": "Kali Uchis",
+                    "type": "artist",
+                    "uri": "spotify:artist:1U1el3k54VvEUzo3ybLPlM"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 209560,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/79E3AjxgQ8qHSTvor83W2o"
+            },
+            "href": "https://api.spotify.com/v1/tracks/79E3AjxgQ8qHSTvor83W2o",
+            "id": "79E3AjxgQ8qHSTvor83W2o",
+            "is_local": false,
+            "name": "She's My Collar (feat. Kali Uchis)",
+            "preview_url": "https://p.scdn.co/mp3-preview/e6dd2c5e8e99a2b4c6089895c5320ecaab74146e?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 16,
+            "type": "track",
+            "uri": "spotify:track:79E3AjxgQ8qHSTvor83W2o"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 11680,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/5CTtJpbZBjrUG5gQ4XBY5w"
+            },
+            "href": "https://api.spotify.com/v1/tracks/5CTtJpbZBjrUG5gQ4XBY5w",
+            "id": "5CTtJpbZBjrUG5gQ4XBY5w",
+            "is_local": false,
+            "name": "Interlude: The Elephant",
+            "preview_url": null,
+            "track_number": 17,
+            "type": "track",
+            "uri": "spotify:track:5CTtJpbZBjrUG5gQ4XBY5w"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/7zHIrsSBL7A0gEJfzv1m7z"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/7zHIrsSBL7A0gEJfzv1m7z",
+                    "id": "7zHIrsSBL7A0gEJfzv1m7z",
+                    "name": "Benjamin Clementine",
+                    "type": "artist",
+                    "uri": "spotify:artist:7zHIrsSBL7A0gEJfzv1m7z"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 263106,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1U5rlgpwaH0ANNgCAIuNax"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1U5rlgpwaH0ANNgCAIuNax",
+            "id": "1U5rlgpwaH0ANNgCAIuNax",
+            "is_local": false,
+            "name": "Hallelujah Money (feat. Benjamin Clementine)",
+            "preview_url": "https://p.scdn.co/mp3-preview/54f4323b00049b4ce1eb2b3d8a81ffea903efb14?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 18,
+            "type": "track",
+            "uri": "spotify:track:1U5rlgpwaH0ANNgCAIuNax"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+                    "id": "3AA28KZvwAUcZuOKwyblJQ",
+                    "name": "Gorillaz",
+                    "type": "artist",
+                    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2WOMBqEsllg2ICn7D2L8ta"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2WOMBqEsllg2ICn7D2L8ta",
+                    "id": "2WOMBqEsllg2ICn7D2L8ta",
+                    "name": "Jehnny Beth",
+                    "type": "artist",
+                    "uri": "spotify:artist:2WOMBqEsllg2ICn7D2L8ta"
+                }
+            ],
+            "available_markets": [
+                "AE",
+                "BH",
+                "BY",
+                "CA",
+                "EG",
+                "IL",
+                "IN",
+                "JO",
+                "KR",
+                "LB",
+                "OM",
+                "QA",
+                "SA",
+                "TN"
+            ],
+            "disc_number": 1,
+            "duration_ms": 139560,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/28yA8jEB4Vbm9LFGYwBTTf"
+            },
+            "href": "https://api.spotify.com/v1/tracks/28yA8jEB4Vbm9LFGYwBTTf",
+            "id": "28yA8jEB4Vbm9LFGYwBTTf",
+            "is_local": false,
+            "name": "We Got the Power (feat. Jehnny Beth)",
+            "preview_url": "https://p.scdn.co/mp3-preview/b5d294d901836c859ed669de9249d20990115637?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 19,
+            "type": "track",
+            "uri": "spotify:track:28yA8jEB4Vbm9LFGYwBTTf"
+        }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 19
+}

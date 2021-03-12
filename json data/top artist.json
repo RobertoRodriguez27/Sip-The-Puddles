@@ -1,0 +1,200 @@
+{
+    "items": [
+        {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ"
+            },
+            "followers": {
+                "href": null,
+                "total": 6643844
+            },
+            "genres": [
+                "alternative hip hop"
+            ],
+            "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ",
+            "id": "3AA28KZvwAUcZuOKwyblJQ",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ac945f862e51de5d2a7a0647736d7a1b4217f0f8",
+                    "width": 640
+                },
+                {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/294ae57f50b41738daca70a886baa55827c09003",
+                    "width": 320
+                },
+                {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/96cfb96f355bb2f4bf25653f7231cf1e4f4378c0",
+                    "width": 160
+                }
+            ],
+            "name": "Gorillaz",
+            "popularity": 83,
+            "type": "artist",
+            "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ"
+        },
+        {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+            },
+            "followers": {
+                "href": null,
+                "total": 3618649
+            },
+            "genres": [
+                "alternative rock",
+                "garage rock",
+                "indie rock",
+                "modern rock",
+                "permanent wave",
+                "rock"
+            ],
+            "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+            "id": "0epOFNiUfyON9EYx7Tpr6V",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/0dd6b94b32c9ec5400d5f8dd4d8be075a6627862",
+                    "width": 640
+                },
+                {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/2132488612fb623fc935055a4e88781cb57f3c5b",
+                    "width": 320
+                },
+                {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/fd30f379cdc1f962c04b1775fdabf1b2e0ea085f",
+                    "width": 160
+                }
+            ],
+            "name": "The Strokes",
+            "popularity": 80,
+            "type": "artist",
+            "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+        },
+        {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+            },
+            "followers": {
+                "href": null,
+                "total": 16720856
+            },
+            "genres": [
+                "conscious hip hop",
+                "hip hop",
+                "rap",
+                "west coast rap"
+            ],
+            "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+            "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/3a836196bfb341f736c7fe2704fb75de53f8dfbb",
+                    "width": 640
+                },
+                {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/5259c0496329b3f608a1ae0edb799cd2f8451acc",
+                    "width": 320
+                },
+                {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/b772a78d4cb192268d6f601a78f21044c17d6dda",
+                    "width": 160
+                }
+            ],
+            "name": "Kendrick Lamar",
+            "popularity": 90,
+            "type": "artist",
+            "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+        },
+        {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0NB5HROxc8dDBXpkIi1v3d"
+            },
+            "followers": {
+                "href": null,
+                "total": 108418
+            },
+            "genres": [
+                "alternative r&b",
+                "indie pop",
+                "indie r&b",
+                "modern alternative pop"
+            ],
+            "href": "https://api.spotify.com/v1/artists/0NB5HROxc8dDBXpkIi1v3d",
+            "id": "0NB5HROxc8dDBXpkIi1v3d",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/337bcbbe61624923f12be1de0bb087d3dddfceda",
+                    "width": 640
+                },
+                {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/ccd5d9e3a82cfe18ca4c773abf9cacf32025195b",
+                    "width": 320
+                },
+                {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/65f383fd2f1445330e47ca36313db74f17cdcba5",
+                    "width": 160
+                }
+            ],
+            "name": "Remi Wolf",
+            "popularity": 69,
+            "type": "artist",
+            "uri": "spotify:artist:0NB5HROxc8dDBXpkIi1v3d"
+        },
+        {
+            "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH"
+            },
+            "followers": {
+                "href": null,
+                "total": 11164485
+            },
+            "genres": [
+                "garage rock",
+                "modern rock",
+                "permanent wave",
+                "rock",
+                "sheffield indie"
+            ],
+            "href": "https://api.spotify.com/v1/artists/7Ln80lUS6He07XvHI8qqHH",
+            "id": "7Ln80lUS6He07XvHI8qqHH",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ed0552e9746ed2bbf04ae4bcb5525700ca31522d",
+                    "width": 640
+                },
+                {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/b435e99aa7f1e27db56b6a4dc9df85e5636b22d6",
+                    "width": 320
+                },
+                {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/73c4e49abed008fe0c5e4f1437b8b486c7670ecd",
+                    "width": 160
+                }
+            ],
+            "name": "Arctic Monkeys",
+            "popularity": 89,
+            "type": "artist",
+            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+        }
+    ],
+    "total": 50,
+    "limit": 5,
+    "offset": 0,
+    "href": "https://api.spotify.com/v1/me/top/artists?limit=5&offset=0",
+    "previous": null,
+    "next": "https://api.spotify.com/v1/me/top/artists?limit=5&offset=5"
+}

@@ -1,0 +1,1284 @@
+{
+    "href": "https://api.spotify.com/v1/albums/5S803BWNS1cbH75MITo6Tt/tracks?offset=0&limit=50",
+    "items": [
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 41466,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1rfOfZxRDzOVAsF9QrKW3E"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1rfOfZxRDzOVAsF9QrKW3E",
+            "id": "1rfOfZxRDzOVAsF9QrKW3E",
+            "is_local": false,
+            "name": "Rabbot Ho - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/bd5acff4da4223c57ba7ccd2ad88ff5f8d4b1dc0?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 1,
+            "type": "track",
+            "uri": "spotify:track:1rfOfZxRDzOVAsF9QrKW3E"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/137W8MRPWKqSmrBGDBFSop"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/137W8MRPWKqSmrBGDBFSop",
+                    "id": "137W8MRPWKqSmrBGDBFSop",
+                    "name": "Wiz Khalifa",
+                    "type": "artist",
+                    "uri": "spotify:artist:137W8MRPWKqSmrBGDBFSop"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 354346,
+            "explicit": true,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/65iFaoeVx2KRE4MwNxtStj"
+            },
+            "href": "https://api.spotify.com/v1/tracks/65iFaoeVx2KRE4MwNxtStj",
+            "id": "65iFaoeVx2KRE4MwNxtStj",
+            "is_local": false,
+            "name": "Drink Dat - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/fd22c4703ebc4b6bd082f07a02756435d63980d8?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 2,
+            "type": "track",
+            "uri": "spotify:track:65iFaoeVx2KRE4MwNxtStj"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/24hJWbo98sH84tb0nkeaqy"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/24hJWbo98sH84tb0nkeaqy",
+                    "id": "24hJWbo98sH84tb0nkeaqy",
+                    "name": "Michael McDonald",
+                    "type": "artist",
+                    "uri": "spotify:artist:24hJWbo98sH84tb0nkeaqy"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3Y3xIwWyq5wnNHPp5gPjOW"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/3Y3xIwWyq5wnNHPp5gPjOW",
+                    "id": "3Y3xIwWyq5wnNHPp5gPjOW",
+                    "name": "Kenny Loggins",
+                    "type": "artist",
+                    "uri": "spotify:artist:3Y3xIwWyq5wnNHPp5gPjOW"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 208346,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/5OMos6Xqs5CPelSJBrALcZ"
+            },
+            "href": "https://api.spotify.com/v1/tracks/5OMos6Xqs5CPelSJBrALcZ",
+            "id": "5OMos6Xqs5CPelSJBrALcZ",
+            "is_local": false,
+            "name": "Lava Lamp - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/d936a250dceedd689a28d22c99f8b729a7733aa2?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 3,
+            "type": "track",
+            "uri": "spotify:track:5OMos6Xqs5CPelSJBrALcZ"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 54093,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6Vy0DaAXLbCs9PiNq3XRHB"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6Vy0DaAXLbCs9PiNq3XRHB",
+            "id": "6Vy0DaAXLbCs9PiNq3XRHB",
+            "is_local": false,
+            "name": "Weakstyle - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/35fa5e2e79b17e48d27dfef2ba0972fe80bb5d38?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 4,
+            "type": "track",
+            "uri": "spotify:track:6Vy0DaAXLbCs9PiNq3XRHB"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 276013,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6iOjdMOhEIRyDko3ob8lEw"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6iOjdMOhEIRyDko3ob8lEw",
+            "id": "6iOjdMOhEIRyDko3ob8lEw",
+            "is_local": false,
+            "name": "Show You The Way - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/1d88705e133fa4026f3beb139938e40ff793641f?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 5,
+            "type": "track",
+            "uri": "spotify:track:6iOjdMOhEIRyDko3ob8lEw"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 108586,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/7sQ7NkZKt1rgTEozNkAqWS"
+            },
+            "href": "https://api.spotify.com/v1/tracks/7sQ7NkZKt1rgTEozNkAqWS",
+            "id": "7sQ7NkZKt1rgTEozNkAqWS",
+            "is_local": false,
+            "name": "Where I'm Going - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/b400b31e2019d0621881558868b79c4c6fa57407?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 6,
+            "type": "track",
+            "uri": "spotify:track:7sQ7NkZKt1rgTEozNkAqWS"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 167533,
+            "explicit": true,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/2NlombvUh8m1YIItoQKlcp"
+            },
+            "href": "https://api.spotify.com/v1/tracks/2NlombvUh8m1YIItoQKlcp",
+            "id": "2NlombvUh8m1YIItoQKlcp",
+            "is_local": false,
+            "name": "Tokyo - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/868abc75df59b207ed46c7897366900313141b1b?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 7,
+            "type": "track",
+            "uri": "spotify:track:2NlombvUh8m1YIItoQKlcp"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 140133,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1St2vItNfgxg5Lo8HxjiJX"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1St2vItNfgxg5Lo8HxjiJX",
+            "id": "1St2vItNfgxg5Lo8HxjiJX",
+            "is_local": false,
+            "name": "Uh Uh - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/30bf5df13094bdca914bcd8c830338436b6904e1?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 8,
+            "type": "track",
+            "uri": "spotify:track:1St2vItNfgxg5Lo8HxjiJX"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 296800,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6lzJnE3NAygz00OHJSnVJz"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6lzJnE3NAygz00OHJSnVJz",
+            "id": "6lzJnE3NAygz00OHJSnVJz",
+            "is_local": false,
+            "name": "Inferno - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/a3b5016b723d57069e6a05200ea8e59432deed39?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 9,
+            "type": "track",
+            "uri": "spotify:track:6lzJnE3NAygz00OHJSnVJz"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 303093,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0IN17LzDONLkfAMVXuX4CQ"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0IN17LzDONLkfAMVXuX4CQ",
+            "id": "0IN17LzDONLkfAMVXuX4CQ",
+            "is_local": false,
+            "name": "Them Changes - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/53220a3fd7112b31fb7ef5c783ab01a33ebd629c?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 10,
+            "type": "track",
+            "uri": "spotify:track:0IN17LzDONLkfAMVXuX4CQ"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 65973,
+            "explicit": true,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1UZqd1HwxllMYE3AgMtJf8"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1UZqd1HwxllMYE3AgMtJf8",
+            "id": "1UZqd1HwxllMYE3AgMtJf8",
+            "is_local": false,
+            "name": "I Am Crazy - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/3c9f6a72f35f71b8e172b1e7021d7428ea478b92?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 11,
+            "type": "track",
+            "uri": "spotify:track:1UZqd1HwxllMYE3AgMtJf8"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 123320,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/3pXic75aJXbcAhBo9E5ZGr"
+            },
+            "href": "https://api.spotify.com/v1/tracks/3pXic75aJXbcAhBo9E5ZGr",
+            "id": "3pXic75aJXbcAhBo9E5ZGr",
+            "is_local": false,
+            "name": "3AM - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/290d4bc903f544cde9586a5390d610feaa6e71a6?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 12,
+            "type": "track",
+            "uri": "spotify:track:3pXic75aJXbcAhBo9E5ZGr"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 130426,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/275EvYVAe3n3uOt0Ww55lo"
+            },
+            "href": "https://api.spotify.com/v1/tracks/275EvYVAe3n3uOt0Ww55lo",
+            "id": "275EvYVAe3n3uOt0Ww55lo",
+            "is_local": false,
+            "name": "Jethro - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/38eb6d92c896e095399c406abd7e1f2823f44d1e?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 13,
+            "type": "track",
+            "uri": "spotify:track:275EvYVAe3n3uOt0Ww55lo"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2RdwBSPQiwcmiDo9kixcl8"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2RdwBSPQiwcmiDo9kixcl8",
+                    "id": "2RdwBSPQiwcmiDo9kixcl8",
+                    "name": "Pharrell Williams",
+                    "type": "artist",
+                    "uri": "spotify:artist:2RdwBSPQiwcmiDo9kixcl8"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 242026,
+            "explicit": true,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/05WtpFPkdLk9luz75jNFXl"
+            },
+            "href": "https://api.spotify.com/v1/tracks/05WtpFPkdLk9luz75jNFXl",
+            "id": "05WtpFPkdLk9luz75jNFXl",
+            "is_local": false,
+            "name": "The Turn Down - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/fb3221967c3854a73b8778c0503f0e9869b663d2?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 14,
+            "type": "track",
+            "uri": "spotify:track:05WtpFPkdLk9luz75jNFXl"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar",
+                    "type": "artist",
+                    "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 270893,
+            "explicit": true,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/4VJjhleD1SJviUjcwpy53M"
+            },
+            "href": "https://api.spotify.com/v1/tracks/4VJjhleD1SJviUjcwpy53M",
+            "id": "4VJjhleD1SJviUjcwpy53M",
+            "is_local": false,
+            "name": "Walk On By - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/ccc358d445bfdd3de3eed43c51a63fc3f81d0280?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 15,
+            "type": "track",
+            "uri": "spotify:track:4VJjhleD1SJviUjcwpy53M"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 25573,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6LOAUmFTWKZ9OnN48HXuKf"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6LOAUmFTWKZ9OnN48HXuKf",
+            "id": "6LOAUmFTWKZ9OnN48HXuKf",
+            "is_local": false,
+            "name": "Day & Night - (Chopnotslop Remix)",
+            "preview_url": null,
+            "track_number": 16,
+            "type": "track",
+            "uri": "spotify:track:6LOAUmFTWKZ9OnN48HXuKf"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 197826,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6QdR4Iq68ebJxrFdajew0G"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6QdR4Iq68ebJxrFdajew0G",
+            "id": "6QdR4Iq68ebJxrFdajew0G",
+            "is_local": false,
+            "name": "A Fan’s Mail (Tron Song Suite II) - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/cc3821103ebb2c29fd3e9d5236d1338192ed6b2b?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 17,
+            "type": "track",
+            "uri": "spotify:track:6QdR4Iq68ebJxrFdajew0G"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 96320,
+            "explicit": true,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0tNr4xvhwfxitdQ3gxJcZU"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0tNr4xvhwfxitdQ3gxJcZU",
+            "id": "0tNr4xvhwfxitdQ3gxJcZU",
+            "is_local": false,
+            "name": "Jameel’s Space Ride - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/a0d7fc54f8afc6ffddb029369a9d352c05d4a67d?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 18,
+            "type": "track",
+            "uri": "spotify:track:0tNr4xvhwfxitdQ3gxJcZU"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 180800,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6c92fAcHQV6fq2HDX1EB78"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6c92fAcHQV6fq2HDX1EB78",
+            "id": "6c92fAcHQV6fq2HDX1EB78",
+            "is_local": false,
+            "name": "Captain Stupido - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/2e8b097dc0d37936277c6b600b68a0e1ec5c45e3?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 19,
+            "type": "track",
+            "uri": "spotify:track:6c92fAcHQV6fq2HDX1EB78"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 192333,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6go9W8d3uVsPdWYurIzKyD"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6go9W8d3uVsPdWYurIzKyD",
+            "id": "6go9W8d3uVsPdWYurIzKyD",
+            "is_local": false,
+            "name": "Friend Zone - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/3499b2a2cd5c2463f2ecfccbb5bcb0267da832b7?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 20,
+            "type": "track",
+            "uri": "spotify:track:6go9W8d3uVsPdWYurIzKyD"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 187506,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6DA4Tfe94eZ5RLwuEWOn2h"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6DA4Tfe94eZ5RLwuEWOn2h",
+            "id": "6DA4Tfe94eZ5RLwuEWOn2h",
+            "is_local": false,
+            "name": "Bus In These Streets - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/de66c704907cb8c8cc74c1459e56a530c37674b5?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 21,
+            "type": "track",
+            "uri": "spotify:track:6DA4Tfe94eZ5RLwuEWOn2h"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 170080,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0GCpcvnkii1gOloaL3ew7Y"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0GCpcvnkii1gOloaL3ew7Y",
+            "id": "0GCpcvnkii1gOloaL3ew7Y",
+            "is_local": false,
+            "name": "DUI - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/3a932a39539802c88ee6e744a40f4a17bd59179b?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 22,
+            "type": "track",
+            "uri": "spotify:track:0GCpcvnkii1gOloaL3ew7Y"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 156240,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0OQbPxfUXfO0k2dd41C6x0"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0OQbPxfUXfO0k2dd41C6x0",
+            "id": "0OQbPxfUXfO0k2dd41C6x0",
+            "is_local": false,
+            "name": "Blackkk - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/39eb5e74e56d803615cb6969e45a96f9639311b1?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 23,
+            "type": "track",
+            "uri": "spotify:track:0OQbPxfUXfO0k2dd41C6x0"
+        },
+        {
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/4frXpPxQQZwbCu3eTGnZEw",
+                    "id": "4frXpPxQQZwbCu3eTGnZEw",
+                    "name": "Thundercat",
+                    "type": "artist",
+                    "uri": "spotify:artist:4frXpPxQQZwbCu3eTGnZEw"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2LQF8AgyQUgLfquM92Rx8N",
+                    "id": "2LQF8AgyQUgLfquM92Rx8N",
+                    "name": "OG Ron C",
+                    "type": "artist",
+                    "uri": "spotify:artist:2LQF8AgyQUgLfquM92Rx8N"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0Ld26D4Ya5Od7ZZpLanfQJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "id": "0Ld26D4Ya5Od7ZZpLanfQJ",
+                    "name": "DJ Candlestick",
+                    "type": "artist",
+                    "uri": "spotify:artist:0Ld26D4Ya5Od7ZZpLanfQJ"
+                }
+            ],
+            "available_markets": [
+                "JP"
+            ],
+            "disc_number": 1,
+            "duration_ms": 139698,
+            "explicit": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/2U4h0Nd2WMlzio6y5fRqmp"
+            },
+            "href": "https://api.spotify.com/v1/tracks/2U4h0Nd2WMlzio6y5fRqmp",
+            "id": "2U4h0Nd2WMlzio6y5fRqmp",
+            "is_local": false,
+            "name": "Drunk - (Chopnotslop Remix)",
+            "preview_url": "https://p.scdn.co/mp3-preview/eadbd5797b8adb2053d455ddd6c84d63d3efb90f?cid=ef2607b740534db4a708db8b6feb6e2f",
+            "track_number": 24,
+            "type": "track",
+            "uri": "spotify:track:2U4h0Nd2WMlzio6y5fRqmp"
+        }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 24
+}

@@ -1,0 +1,219 @@
+{
+    "artists": {
+        "href": "https://api.spotify.com/v1/search?query=The+Strokes&type=artist&offset=0&limit=10",
+        "items": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 3617308
+                },
+                "genres": [
+                    "alternative rock",
+                    "garage rock",
+                    "indie rock",
+                    "modern rock",
+                    "permanent wave",
+                    "rock"
+                ],
+                "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+                "id": "0epOFNiUfyON9EYx7Tpr6V",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/0dd6b94b32c9ec5400d5f8dd4d8be075a6627862",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/2132488612fb623fc935055a4e88781cb57f3c5b",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/fd30f379cdc1f962c04b1775fdabf1b2e0ea085f",
+                        "width": 160
+                    }
+                ],
+                "name": "The Strokes",
+                "popularity": 80,
+                "type": "artist",
+                "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4BFMTELQyWJU1SwqcXMBm3"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 437998
+                },
+                "genres": [
+                    "alternative rock",
+                    "classic rock",
+                    "dance rock",
+                    "detroit rock",
+                    "garage rock",
+                    "permanent wave",
+                    "post-punk",
+                    "protopunk",
+                    "psychedelic rock",
+                    "punk",
+                    "punk blues",
+                    "rock"
+                ],
+                "href": "https://api.spotify.com/v1/artists/4BFMTELQyWJU1SwqcXMBm3",
+                "id": "4BFMTELQyWJU1SwqcXMBm3",
+                "images": [
+                    {
+                        "height": 823,
+                        "url": "https://i.scdn.co/image/1d9f0cf8e6d8d51f28369eccd78dca2882fb0d83",
+                        "width": 1000
+                    },
+                    {
+                        "height": 527,
+                        "url": "https://i.scdn.co/image/0ca5b7b25505a312622da1ed90ab412c0bbf6717",
+                        "width": 640
+                    },
+                    {
+                        "height": 165,
+                        "url": "https://i.scdn.co/image/8f10d358610778872b6de9b5f876c7bdc2a70ac7",
+                        "width": 200
+                    },
+                    {
+                        "height": 53,
+                        "url": "https://i.scdn.co/image/64bb39146feef25bdc2585423e5a98e7d94ce44d",
+                        "width": 64
+                    }
+                ],
+                "name": "The Stooges",
+                "popularity": 58,
+                "type": "artist",
+                "uri": "spotify:artist:4BFMTELQyWJU1SwqcXMBm3"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/1ixjSNtaDHTEDuc4wA3Fgf"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 15
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/1ixjSNtaDHTEDuc4wA3Fgf",
+                "id": "1ixjSNtaDHTEDuc4wA3Fgf",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b2734ab2150734ef0e28327590da",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e024ab2150734ef0e28327590da",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d000048514ab2150734ef0e28327590da",
+                        "width": 64
+                    }
+                ],
+                "name": "Strokes on the Keys",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:1ixjSNtaDHTEDuc4wA3Fgf"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0mqd4bWDLGPCjksKFtdTo0"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 44
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/0mqd4bWDLGPCjksKFtdTo0",
+                "id": "0mqd4bWDLGPCjksKFtdTo0",
+                "images": [],
+                "name": "Torture Device vs. The Strokes Publicity Company",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:0mqd4bWDLGPCjksKFtdTo0"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/0CwuJiPApb8J42UxtI9J5V"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 14
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/0CwuJiPApb8J42UxtI9J5V",
+                "id": "0CwuJiPApb8J42UxtI9J5V",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/52142d803ca30871dc213b24b39afda5f8a92824",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/2161b6ccc39449331a7f04e4ae34c174a21deab5",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/380ef88280b6649264ada45c2bcf60821643eec1",
+                        "width": 160
+                    }
+                ],
+                "name": "Vinegar Strokes & The Morning Afters",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:0CwuJiPApb8J42UxtI9J5V"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/31So374CP3AGvJxNeSoaHm"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 124
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/31So374CP3AGvJxNeSoaHm",
+                "id": "31So374CP3AGvJxNeSoaHm",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab67616d0000b27377f19642806d75d2aed9a067",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/ab67616d00001e0277f19642806d75d2aed9a067",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/ab67616d0000485177f19642806d75d2aed9a067",
+                        "width": 64
+                    }
+                ],
+                "name": "Randy Roberts & The Capital Strokes",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:31So374CP3AGvJxNeSoaHm"
+            }
+        ],
+        "limit": 10,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 6
+    }
+}
