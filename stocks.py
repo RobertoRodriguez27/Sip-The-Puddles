@@ -53,6 +53,7 @@ class User(object):
     username = None
     token = None
     sp = None
+    points = None
 
     def validate_token(self, username, scope):
         self.token = util.prompt_for_user_token(username, scope)
@@ -76,18 +77,28 @@ class User(object):
     def users_top_five(self):
         self.validate_token('titooooo27', scope='user-top-read')
         sp = self.sp
+
         unfiltered_top_five = create_and_organize_files(sp.current_user_top_artists(limit=5, time_range='medium_term'),
                                                         'json data', '', 'top artist.json')
+        df_top_five = pd.json_normalize(data=unfiltered_top_five, record_path=['items'])
+        df_top_five.pop('external_urls.spotify')
+        df_top_five.pop('followers.href')
+        # df_top_five.pop('followers.total') # split between if followers or popularity accurately represent
+        df_top_five.pop('popularity')  # an artist's popularity. pop uses a different way to calculate
+        df_top_five.pop('id')
+        df_top_five.pop('genres')
+        df_top_five.pop('href')
+        df_top_five.pop('images')
+        df_top_five.pop('type')
+        df_top_five.pop('uri')
+        df_top_five = df_top_five.sort_values('followers.total')
 
-        top_five = {}
-        unfiltered_top_five = unfiltered_top_five.get('items')
-        for item in unfiltered_top_five:
-            artist_name = item['name']
-            artist_followers = item['followers'].get('total')
-            top_five[artist_name] = artist_followers
+        df_top_five.columns = ['artists', 'followers']
 
-        df_top_five = pd.DataFrame(list(top_five.items()), columns=['artists', 'followers'])
-        # df_top_five = df_top_five.sort_values('followers')
+        json_top_five = df_top_five.to_json(orient='records')
+        parsed = json.loads(json_top_five)
+        with open(f'json data/json top five.json', 'w', encoding='utf-8') as f:
+            json.dump(parsed, f, ensure_ascii=False, indent=4)
 
         plot.figure(figsize=(12, 6))  # set up the plot size and title
         plot.title("Stockify")
@@ -117,8 +128,12 @@ class User(object):
 
         print(df_results)
 
+    # get the user's points from the database and store it in self.points
+    def get_points(self):
+        pass
 
-pt = User('********', '***********', 'username',
+
+pt = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
           scope='user-read-recently-played')  # replace with client id, client secret, and username
-# pt.users_top_five()
-pt.search_artist('The Strokes')
+pt.users_top_five()
+# pt.search_artist('The Strokes')
