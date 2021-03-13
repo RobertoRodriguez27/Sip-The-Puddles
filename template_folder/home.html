@@ -49,39 +49,41 @@
 
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
                     <canvas id="canvas"></canvas>
-                    <script src="json data/json top five.json">
-                        import
+                    <script>
+                        // import
 
-                        const red = require('../json data/json top five.json')
-                        let jed = null;
-                        red.readFile('Input.txt', (err, data) => {
-                            if (err) throw err;
+                        // const red = require('../json data/json top five.json')
+                        // let jed = null;
+                        // red.readFile('Input.txt', (err, data) => {
+                        //    if (err) throw err;
 
-                            jed = data
-                            console.log(data.toString());
-                        })
-
+                        //    jed = data
+                        //    console.log(data.toString());
+                        // })
+                        // TODO: need to find a way to load the json file to use in charts
                         // let file = document.querySelector('../json data/json top five.json')
-                        var read = new FileReader();
-                        read.readAsText("../json data/json top five.json")
+                        // var read = new FileReader();
+                        // read.readAsText("../json data/json top five.json")
+
+                        // currently using hard coded data to test chart.js
                         var jsonfile = {
-                            "jsonarray" : jed
-                            // "jsonarray": [{
-                            //     "artists": "Remi Wolf",
-                            //     "followers": 108418
-                            // }, {
-                            //     "artists": "The Strokes",
-                            //     "followers": 3618649
-                            // }, {
-                            //     "artists": "Gorillaz",
-                            //     "followers": 6643844
-                            // }, {
-                            //     "artists": "Arctic Monkeys",
-                            //     "followers": 11164485
-                            // }, {
-                            //     "artists": "Kendrick Lamar",
-                            //     "followers": 16720856
-                            // }]
+
+                            "jsonarray": [{
+                                "artists": "Remi Wolf",
+                                "followers": 108418
+                            }, {
+                                "artists": "The Strokes",
+                                "followers": 3618649
+                            }, {
+                                "artists": "Gorillaz",
+                                "followers": 6643844
+                            }, {
+                                "artists": "Arctic Monkeys",
+                                "followers": 11164485
+                            }, {
+                                "artists": "Kendrick Lamar",
+                                "followers": 16720856
+                            }]
                         };
                         var labels = jsonfile.jsonarray.map(function(e) {
                             return e.artists;
@@ -118,6 +120,66 @@
                         };
 
                         var chart = new Chart(ctx, config);
+                    </script>
+                    <script>
+
+                        var jsonfile = {
+                            "jsonarray": [{
+                                "artists": "Remi Wolf",
+                                "followers": 108418
+                            }, {
+                                "artists": "The Strokes",
+                                "followers": 3618649
+                            }, {
+                                "artists": "Gorillaz",
+                                "followers": 6643844
+                            }, {
+                                "artists": "Arctic Monkeys",
+                                "followers": 11164485
+                            }, {
+                                "artists": "Kendrick Lamar",
+                                "followers": 16720856
+                            }]
+                        };
+                        var labels = jsonfile.jsonarray.map(function(e) {
+                            return e.artists;
+                        });
+                        var data = jsonfile.jsonarray.map(function(e) {
+                            return e.followers;
+                        });
+
+                        var ctx = canvas.getContext('2d');
+                        var config = {
+                            type: 'bar',
+                            data: {
+                                labels: labels,
+                                datasets: [{
+                                    label: 'Your Top Artists',
+                                    data: data,
+                                    backgroundColor: [
+                                        'rgba(54, 162, 235, 0.2)',
+                                        'rgba(255, 206, 86, 0.2)',
+                                        'rgba(75, 192, 192, 0.2)',
+                                        'rgba(153, 102, 255, 0.2)',
+                                        'rgba(255, 159, 64, 0.2)'
+                                    ],
+                                    borderColor: [
+                                        'rgba(54, 162, 235, 1)',
+                                        'rgba(255, 206, 86, 1)',
+                                        'rgba(75, 192, 192, 1)',
+                                        'rgba(153, 102, 255, 1)',
+                                        'rgba(255, 159, 64, 1)'
+                                    ],
+                                    borderWidth: 2
+                                }]
+                            }
+                        };
+
+                        var myDoughnutChart = new Chart(ctx, {
+                            type: 'doughnut',
+                            data: data
+                            {#options: options#}
+                        });
                     </script>
 
                 </div>

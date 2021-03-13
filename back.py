@@ -4,8 +4,6 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy.util as util
 import json
 import pandas as pd
-# import seaborn as sb
-# import matplotlib.pyplot as plot
 import max_heap as rank
 
 

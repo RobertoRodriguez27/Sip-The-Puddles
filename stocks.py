@@ -6,7 +6,7 @@ import json
 import pandas as pd
 import seaborn as sb
 import matplotlib.pyplot as plot
-
+from user_info import client_secret, client, username
 # from glom import glom
 
 '''
@@ -23,6 +23,7 @@ import matplotlib.pyplot as plot
  '''
 
 
+# in the event that a file/folder have an item that windows does not like, change into something acceptable
 def fix_illegal_folder_name(folder1, folder2):
     if ':' in folder1:
         folder1.replace(':', 'a')
@@ -30,6 +31,7 @@ def fix_illegal_folder_name(folder1, folder2):
         folder2.replace(':', 'a')
 
 
+# organizes the json files made and returns a json object back to be turned into a data frame
 def create_and_organize_files(data=None, folder1=None, folder2="", file=None):
     if data is None or folder1 is None or file is None:  # data, folder1 and file must be defined
         raise Exception("Not enough information to create and/or store folder")
@@ -56,6 +58,10 @@ class User(object):
     sp = None
     points = None
 
+    '''
+    validates the user's token so the user can be allowed to change
+    the scopes
+    '''
     def validate_token(self, username, scope):
         self.token = util.prompt_for_user_token(username, scope)
         self.sp = spotipy.Spotify(auth=self.token)
@@ -75,10 +81,19 @@ class User(object):
         SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
         self.validate_token(username, scope)
 
+    '''
+    gets the user's most listened to 5 artists from the past 6 months, puts the data into a json file,
+    and turns the json file into a data frame. Then creates a bar graph based on those artists' followers.
+    Makes a json file based on those results
+    TODO: With the json file of the results, I want to send it over to home.html so it can become a 
+    chart using chart.js
+    '''
     def users_top_five(self):
         self.validate_token('titooooo27', scope='user-top-read')
         sp = self.sp
 
+        # makes a json file from the results of the artist's top 5 artists. Then puts it into a df and deletes the
+        # columns that are not necessary
         unfiltered_top_five = create_and_organize_files(sp.current_user_top_artists(limit=5, time_range='medium_term'),
                                                         'json data', '', 'top artist.json')
         df_top_five = pd.json_normalize(data=unfiltered_top_five, record_path=['items'])
@@ -93,10 +108,14 @@ class User(object):
         df_top_five.pop('type')
         df_top_five.pop('uri')
 
+        # sorts the df from less to greater based on followers.total
         df_top_five = df_top_five.sort_values('followers.total')
 
+        # renames the columns
         df_top_five.columns = ['artists', 'followers']
 
+        # saves the json file to then be used by home.html and made
+        # into a bar graph using chart.js
         json_top_five = df_top_five.to_json(orient='records')
         parsed = json.loads(json_top_five)
         with open('json data/json top five.json', 'w', encoding='utf-8') as f:
@@ -110,6 +129,13 @@ class User(object):
 
         plot.savefig('top_five.jpg')  # save plot image
 
+    '''
+    Gets the user's top 50 artists and extracts the genres
+    TODO: also need to find a way to get genres in a cleaner way and be able to get the sub genres
+    and group them into their umbrella genre. EX: 'underground hip hop' should only count as 'hip hop'
+    TODO: With the json file of the results, I want to send it over to home.html so it can become a 
+    chart using chart.js
+    '''
     def genres(self):
 
         self.validate_token('titooooo27', scope='user-top-read')
@@ -117,11 +143,9 @@ class User(object):
 
         unfiltered_top_50 = create_and_organize_files(sp.current_user_top_artists(limit=50, time_range='medium_term'),
                                                       'json data', '', 'genres.json')
-        with open('json data/top artist.json') as f:
-            results = json.load(f)
+
         # sets makes the json into a data frame and deletes the columns
         df_genres = pd.json_normalize(data=unfiltered_top_50, record_path=['items'])
-        # df_genres = pd.json_normalize(results, record_path=['items'])
         df_genres.pop('external_urls.spotify')
         df_genres.pop('followers.href')
         df_genres.pop('followers.total')  # split between if followers or popularity accurately represent
@@ -133,11 +157,17 @@ class User(object):
         df_genres.pop('uri')
         df_genres.pop('name')
 
+        # saves a json file of the wanted information. this is to be used by the home.html to
+        # create a pie chart using chart.js
         json_genres = df_genres.to_json(orient='records')
         parsed = json.loads(json_genres)
         with open('json data/json genres.json', 'w', encoding='utf-8') as f:
             json.dump(parsed, f, ensure_ascii=False, indent=4)
 
+        # grabs the genres from the user's most listened artists and counts them
+        # TODO: need to check if one of the 'simple_genres' is a substring of the artists' genres
+        # TODO: this will allow a more accurate representation of the genres a user listens to without
+        # TODO: having an excess of sub genres
         genre_dict = df_genres.to_dict(orient='dict')
         simple_genre = {'rap': 0, 'hip hop': 0, 'rock': 0, 'indie': 0, 'pop': 0, 'punk': 0, 'other': 0}
         for item in genre_dict['genres']:
@@ -147,15 +177,23 @@ class User(object):
                 elif sub_item not in simple_genre.keys():
                     simple_genre['other'] += 1
                     # simple_genre[sub_item] = 1
+
+        # creates a pie chart of the genres. Currently over powered by 'other' due to excess of sub genres
         plot.axis('equal')
         plot.pie(simple_genre.values(), labels=simple_genre.keys(), autopct=None)
         plot.savefig('genres.jpg')
-        print()
 
+    '''
+    Search feature. uses the artist query to find the 5 closest artists to the query
+    and returns their name, popularity, and artist id
+    '''
     def search_artist(self, query=None):
         if not query:
             raise Exception('you need to search an artist')
         sp = self.sp
+
+        # makes a json file from the results the search. Then puts it into a df and deletes the
+        # columns that are not necessary
         unfiltered_results = create_and_organize_files(sp.search(q=query, type='artist'), 'json data', '',
                                                        'search results.json')
         df_results = pd.json_normalize(data=unfiltered_results, record_path=['artists', 'items'])
@@ -173,7 +211,7 @@ class User(object):
         print(df_results)
 
 
-pt = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
+pt = User(client, client_secret, username,
           scope='user-read-recently-played')  # replace with client id, client secret, and username
 # pt.users_top_five()
 pt.genres()
