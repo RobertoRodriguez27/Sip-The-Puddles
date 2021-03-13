@@ -172,10 +172,6 @@ class User(object):
 
         print(df_results)
 
-    # get the user's points from the database and store it in self.points
-    def get_points(self):
-        pass
-
 
 pt = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
           scope='user-read-recently-played')  # replace with client id, client secret, and username
