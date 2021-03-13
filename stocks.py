@@ -6,6 +6,7 @@ import json
 import pandas as pd
 import seaborn as sb
 import matplotlib.pyplot as plot
+
 # from glom import glom
 
 '''
@@ -91,13 +92,14 @@ class User(object):
         df_top_five.pop('images')
         df_top_five.pop('type')
         df_top_five.pop('uri')
+
         df_top_five = df_top_five.sort_values('followers.total')
 
         df_top_five.columns = ['artists', 'followers']
 
         json_top_five = df_top_five.to_json(orient='records')
         parsed = json.loads(json_top_five)
-        with open(f'json data/json top five.json', 'w', encoding='utf-8') as f:
+        with open('json data/json top five.json', 'w', encoding='utf-8') as f:
             json.dump(parsed, f, ensure_ascii=False, indent=4)
 
         plot.figure(figsize=(12, 6))  # set up the plot size and title
@@ -107,6 +109,48 @@ class User(object):
         sb.barplot(x="artists", y="followers", data=df_top_five)
 
         plot.savefig('top_five.jpg')  # save plot image
+
+    def genres(self):
+
+        self.validate_token('titooooo27', scope='user-top-read')
+        sp = self.sp
+
+        unfiltered_top_50 = create_and_organize_files(sp.current_user_top_artists(limit=50, time_range='medium_term'),
+                                                      'json data', '', 'genres.json')
+        with open('json data/top artist.json') as f:
+            results = json.load(f)
+        # sets makes the json into a data frame and deletes the columns
+        df_genres = pd.json_normalize(data=unfiltered_top_50, record_path=['items'])
+        # df_genres = pd.json_normalize(results, record_path=['items'])
+        df_genres.pop('external_urls.spotify')
+        df_genres.pop('followers.href')
+        df_genres.pop('followers.total')  # split between if followers or popularity accurately represent
+        df_genres.pop('popularity')  # an artist's popularity. pop uses a different way to calculate
+        df_genres.pop('id')
+        df_genres.pop('href')
+        df_genres.pop('images')
+        df_genres.pop('type')
+        df_genres.pop('uri')
+        df_genres.pop('name')
+
+        json_genres = df_genres.to_json(orient='records')
+        parsed = json.loads(json_genres)
+        with open('json data/json genres.json', 'w', encoding='utf-8') as f:
+            json.dump(parsed, f, ensure_ascii=False, indent=4)
+
+        genre_dict = df_genres.to_dict(orient='dict')
+        simple_genre = {'rap': 0, 'hip hop': 0, 'rock': 0, 'indie': 0, 'pop': 0, 'punk': 0, 'other': 0}
+        for item in genre_dict['genres']:
+            for sub_item in genre_dict['genres'][item]:
+                if sub_item in simple_genre.keys():
+                    simple_genre[sub_item] += 1
+                elif sub_item not in simple_genre.keys():
+                    simple_genre['other'] += 1
+                    # simple_genre[sub_item] = 1
+        plot.axis('equal')
+        plot.pie(simple_genre.values(), labels=simple_genre.keys(), autopct=None)
+        plot.savefig('genres.jpg')
+        print()
 
     def search_artist(self, query=None):
         if not query:
@@ -135,5 +179,6 @@ class User(object):
 
 pt = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
           scope='user-read-recently-played')  # replace with client id, client secret, and username
-pt.users_top_five()
+# pt.users_top_five()
+pt.genres()
 # pt.search_artist('The Strokes')

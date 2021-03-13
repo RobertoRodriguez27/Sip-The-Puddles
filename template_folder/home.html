@@ -49,47 +49,40 @@
 
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
                     <canvas id="canvas"></canvas>
-                    <script>
-                        // const jata = require("../json data/json top five.json");
-                        // var data = readFile()
+                    <script src="json data/json top five.json">
+                        import
+
+                        const red = require('../json data/json top five.json')
+                        let jed = null;
+                        red.readFile('Input.txt', (err, data) => {
+                            if (err) throw err;
+
+                            jed = data
+                            console.log(data.toString());
+                        })
+
+                        // let file = document.querySelector('../json data/json top five.json')
+                        var read = new FileReader();
+                        read.readAsText("../json data/json top five.json")
                         var jsonfile = {
-                            "jsonarray": [{
-                                "artists": "Remi Wolf",
-                                "followers": 108418
-                            }, {
-                                "artists": "The Strokes",
-                                "followers": 3618649
-                            }, {
-                                "artists": "Gorillaz",
-                                "followers": 6643844
-                            }, {
-                                "artists": "Arctic Monkeys",
-                                "followers": 11164485
-                            }, {
-                                "artists": "Kendrick Lamar",
-                                "followers": 16720856
-                            }]
+                            "jsonarray" : jed
+                            // "jsonarray": [{
+                            //     "artists": "Remi Wolf",
+                            //     "followers": 108418
+                            // }, {
+                            //     "artists": "The Strokes",
+                            //     "followers": 3618649
+                            // }, {
+                            //     "artists": "Gorillaz",
+                            //     "followers": 6643844
+                            // }, {
+                            //     "artists": "Arctic Monkeys",
+                            //     "followers": 11164485
+                            // }, {
+                            //     "artists": "Kendrick Lamar",
+                            //     "followers": 16720856
+                            // }]
                         };
-
-                        // var jsonfile = {
-                        //     "jsonarray": [{
-                        //         'artists': 'Remi Wolf',
-                        //         'followers': 107345
-                        //     }, {
-                        //         'artists': 'The Strokes',
-                        //         'followers': 3614580
-                        //     }, {
-                        //         'artists': 'Gorillaz',
-                        //         'followers': 6630356
-                        //     }, {
-                        //         'artists': 'Arctic Monkeys',
-                        //         'followers': 11138364
-                        //     }, {
-                        //         'artists': 'Kendrick Lamar',
-                        //         'followers': 16690486
-                        //     }]
-                        // };
-
                         var labels = jsonfile.jsonarray.map(function(e) {
                             return e.artists;
                         });
