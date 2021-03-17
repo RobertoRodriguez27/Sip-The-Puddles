@@ -5,6 +5,7 @@ import spotipy.util as util
 import json
 import pandas as pd
 import max_heap as rank
+from user_info import client_secret, client, username
 
 
 def fix_illegal_folder_name(folder1, folder2):
@@ -165,7 +166,7 @@ class User(object):
         tree.print()
 
 
-pt = User('ef2607b740534db4a708db8b6feb6e2f', '410147f8a9be40fc8630a12ae1ccf0b3', 'titooooo27',
+pt = User(client, client_secret, username,
           scope='user-read-currently-playing')  # replace with your client id, client secret, and username
 print(pt.current_song())
 # pt.make()
