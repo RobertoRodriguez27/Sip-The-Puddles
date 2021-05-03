@@ -6,7 +6,7 @@
             },
             "followers": {
                 "href": null,
-                "total": 6643844
+                "total": 6876655
             },
             "genres": [
                 "alternative hip hop"
@@ -16,17 +16,17 @@
             "images": [
                 {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ac945f862e51de5d2a7a0647736d7a1b4217f0f8",
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebc65516f09e2a5e782bcbf9dc",
                     "width": 640
                 },
                 {
                     "height": 320,
-                    "url": "https://i.scdn.co/image/294ae57f50b41738daca70a886baa55827c09003",
+                    "url": "https://i.scdn.co/image/ab67616100005174c65516f09e2a5e782bcbf9dc",
                     "width": 320
                 },
                 {
                     "height": 160,
-                    "url": "https://i.scdn.co/image/96cfb96f355bb2f4bf25653f7231cf1e4f4378c0",
+                    "url": "https://i.scdn.co/image/ab6761610000f178c65516f09e2a5e782bcbf9dc",
                     "width": 160
                 }
             ],
@@ -37,16 +37,52 @@
         },
         {
             "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1Bl6wpkWCQ4KVgnASpvzzA"
+            },
+            "followers": {
+                "href": null,
+                "total": 1779777
+            },
+            "genres": [
+                "boy band",
+                "hip hop",
+                "rap"
+            ],
+            "href": "https://api.spotify.com/v1/artists/1Bl6wpkWCQ4KVgnASpvzzA",
+            "id": "1Bl6wpkWCQ4KVgnASpvzzA",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/e7dcff068ec6cdae74b094ea9aca62a5f53f5d03",
+                    "width": 640
+                },
+                {
+                    "height": 320,
+                    "url": "https://i.scdn.co/image/c14d8ad1f056418dfce9bec680f23575637382a5",
+                    "width": 320
+                },
+                {
+                    "height": 160,
+                    "url": "https://i.scdn.co/image/b42951c2b96686999a05e70c6f32d025b7a2d2b2",
+                    "width": 160
+                }
+            ],
+            "name": "BROCKHAMPTON",
+            "popularity": 81,
+            "type": "artist",
+            "uri": "spotify:artist:1Bl6wpkWCQ4KVgnASpvzzA"
+        },
+        {
+            "external_urls": {
                 "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
             },
             "followers": {
                 "href": null,
-                "total": 3618649
+                "total": 3736535
             },
             "genres": [
                 "alternative rock",
                 "garage rock",
-                "indie rock",
                 "modern rock",
                 "permanent wave",
                 "rock"
@@ -56,100 +92,61 @@
             "images": [
                 {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/0dd6b94b32c9ec5400d5f8dd4d8be075a6627862",
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb64d74f5985cb66b2f7b60e93",
                     "width": 640
                 },
                 {
                     "height": 320,
-                    "url": "https://i.scdn.co/image/2132488612fb623fc935055a4e88781cb57f3c5b",
+                    "url": "https://i.scdn.co/image/ab6761610000517464d74f5985cb66b2f7b60e93",
                     "width": 320
                 },
                 {
                     "height": 160,
-                    "url": "https://i.scdn.co/image/fd30f379cdc1f962c04b1775fdabf1b2e0ea085f",
+                    "url": "https://i.scdn.co/image/ab6761610000f17864d74f5985cb66b2f7b60e93",
                     "width": 160
                 }
             ],
             "name": "The Strokes",
-            "popularity": 80,
+            "popularity": 81,
             "type": "artist",
             "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
         },
         {
             "external_urls": {
-                "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+                "spotify": "https://open.spotify.com/artist/0Cp8WN4V8Tu4QJQwCN5Md4"
             },
             "followers": {
                 "href": null,
-                "total": 16720856
+                "total": 614525
             },
             "genres": [
-                "conscious hip hop",
-                "hip hop",
-                "rap",
-                "west coast rap"
+                "alt z",
+                "nz pop",
+                "pop"
             ],
-            "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
-            "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+            "href": "https://api.spotify.com/v1/artists/0Cp8WN4V8Tu4QJQwCN5Md4",
+            "id": "0Cp8WN4V8Tu4QJQwCN5Md4",
             "images": [
                 {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/3a836196bfb341f736c7fe2704fb75de53f8dfbb",
+                    "url": "https://i.scdn.co/image/cf1265cb1c2c35d253cbbac9b1489bc181322ed3",
                     "width": 640
                 },
                 {
                     "height": 320,
-                    "url": "https://i.scdn.co/image/5259c0496329b3f608a1ae0edb799cd2f8451acc",
+                    "url": "https://i.scdn.co/image/95e5164d793a587bbd52217612342b6cce8da94d",
                     "width": 320
                 },
                 {
                     "height": 160,
-                    "url": "https://i.scdn.co/image/b772a78d4cb192268d6f601a78f21044c17d6dda",
+                    "url": "https://i.scdn.co/image/0cbb555517bc8c6f5cb273ce80c55c421799c2c3",
                     "width": 160
                 }
             ],
-            "name": "Kendrick Lamar",
-            "popularity": 90,
+            "name": "BENEE",
+            "popularity": 75,
             "type": "artist",
-            "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
-        },
-        {
-            "external_urls": {
-                "spotify": "https://open.spotify.com/artist/0NB5HROxc8dDBXpkIi1v3d"
-            },
-            "followers": {
-                "href": null,
-                "total": 108418
-            },
-            "genres": [
-                "alternative r&b",
-                "indie pop",
-                "indie r&b",
-                "modern alternative pop"
-            ],
-            "href": "https://api.spotify.com/v1/artists/0NB5HROxc8dDBXpkIi1v3d",
-            "id": "0NB5HROxc8dDBXpkIi1v3d",
-            "images": [
-                {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/337bcbbe61624923f12be1de0bb087d3dddfceda",
-                    "width": 640
-                },
-                {
-                    "height": 320,
-                    "url": "https://i.scdn.co/image/ccd5d9e3a82cfe18ca4c773abf9cacf32025195b",
-                    "width": 320
-                },
-                {
-                    "height": 160,
-                    "url": "https://i.scdn.co/image/65f383fd2f1445330e47ca36313db74f17cdcba5",
-                    "width": 160
-                }
-            ],
-            "name": "Remi Wolf",
-            "popularity": 69,
-            "type": "artist",
-            "uri": "spotify:artist:0NB5HROxc8dDBXpkIi1v3d"
+            "uri": "spotify:artist:0Cp8WN4V8Tu4QJQwCN5Md4"
         },
         {
             "external_urls": {
@@ -157,7 +154,7 @@
             },
             "followers": {
                 "href": null,
-                "total": 11164485
+                "total": 11603629
             },
             "genres": [
                 "garage rock",
@@ -186,7 +183,7 @@
                 }
             ],
             "name": "Arctic Monkeys",
-            "popularity": 89,
+            "popularity": 88,
             "type": "artist",
             "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
         }
@@ -194,7 +191,7 @@
     "total": 50,
     "limit": 5,
     "offset": 0,
-    "href": "https://api.spotify.com/v1/me/top/artists?limit=5&offset=0",
     "previous": null,
+    "href": "https://api.spotify.com/v1/me/top/artists?limit=5&offset=0",
     "next": "https://api.spotify.com/v1/me/top/artists?limit=5&offset=5"
 }

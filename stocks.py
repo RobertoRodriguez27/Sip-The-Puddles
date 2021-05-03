@@ -210,9 +210,17 @@ class User(object):
 
         print(df_results)
 
+    '''
+    How to get the top 10 most popular artists when spotify and spotipy do not do that
+    One way to do that can be to get the most popular songs and checking (somehow) if 
+    they are in the top 10 range. I don't think spotify API will notify if in ranked globably category
+    
+    Second way can be to manually find the rank 10 person then find the artists that have b.b
+    '''
+
 
 pt = User(client, client_secret, username,
           scope='user-read-recently-played')  # replace with client id, client secret, and username
-# pt.users_top_five()
-pt.genres()
+pt.users_top_five()
+# pt.genres()
 # pt.search_artist('The Strokes')
