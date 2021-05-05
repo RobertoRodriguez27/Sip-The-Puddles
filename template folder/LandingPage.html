@@ -1,6 +1,7 @@
 <!--{#<!doctype html>#}-->
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/LandingPage.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
@@ -17,14 +18,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
-    <title>PY-FI</title>
+    <title>Stockify</title>
 </head>
 
-<!-- Top of screen -->
-    <body>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<!--        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
-    </body>
     <div class="row">
         <div class="w-80 mx-auto">
             <button type="button" class="btn btn-outline-info btn-lg">Personal Projects</button>
@@ -50,54 +46,15 @@
         </div>
 
         <!-- Hidden Content -->
-        <div class="col-6">
+        <div class="col d-flex justify-content-center">
             <div class="tab-content" id="v-pills-tabContent">
                 <!-- portfolio -->
                 <div class="tab-pane fade show active" id="v-pills-portfolio" role="tabpanel" aria-labelledby="v-pills-home-tab">
 
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 
-                    <canvas id="UserTopArtists" width="600" height="600" style="background-color: aliceblue"></canvas>
-                    <script>
-                        let ctx = document.getElementById('UserTopArtists');
-
-                        $.getJSON("..\\json data\\json top five.json", function (json) {
-                            const artistNames = [];
-                            const artistFollowers = [];
-
-                            for (let i = 0; i < json.length; i++) {
-                               artistNames.push(json[i].artists);
-                               artistFollowers.push(json[i].followers);
-                           }
-
-                            var topArtists = new Chart(ctx, {
-                                type: 'bar',
-                                data: {
-                                    labels: artistNames,
-                                    datasets: [{
-                                        label: 'Your Top Artists',
-                                        data: artistFollowers,
-                                        backgroundColor: [
-                                            'rgba(54, 162, 235, 0.2)',
-                                            'rgba(255, 206, 86, 0.2)',
-                                            'rgba(75, 192, 192, 0.2)',
-                                            'rgba(153, 102, 255, 0.2)',
-                                            'rgba(255, 159, 64, 0.2)'
-                                        ],
-                                        borderColor: [
-                                            'rgba(54, 162, 235, 1)',
-                                            'rgba(255, 206, 86, 1)',
-                                            'rgba(75, 192, 192, 1)',
-                                            'rgba(153, 102, 255, 1)',
-                                            'rgba(255, 159, 64, 1)'
-                                        ],
-                                        borderWidth: 2
-                                    }]
-                                }
-                            });
-                        });
-                    </script>
-
+                    <canvas id="UserTopArtists" width="450" height="450" style="background-color: #f0f8ff"></canvas>
+                    <script type="text/javascript" src="javascript/portfolio.js"></script> <!-- creates the chart showing the user's top artist's followers -->
 
                 </div>
                 <!-- stats -->
