@@ -1,7 +1,7 @@
 <!--{#<!doctype html>#}-->
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/LandingPage.css">
+    <link rel="stylesheet" href="../static/LandingPage.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
@@ -54,7 +54,52 @@
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 
                     <canvas id="UserTopArtists" width="450" height="450" style="background-color: #f0f8ff"></canvas>
-                    <script type="text/javascript" src="javascript/portfolio.js"></script> <!-- creates the chart showing the user's top artist's followers -->
+
+
+                {% block javascript %}
+                    <!-- <script type="text/javascript" src="{{url_for('static', filename='portfolio.js')}}"> -->
+                    <script>
+                        let ctx = document.getElementById('UserTopArtists');
+                        //art_label = a_label;
+                        //art_data = a_data;
+                        art_label = JSON.parse({{ a_label | tojson }});
+                        art_data = JSON.parse({{ a_data | tojson }});
+                        var topArtists = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: art_label,
+                                datasets: [{
+                                    label: 'Artist Followers',
+                                    data: art_data,
+                                    backgroundColor: [
+                                        'rgba(54, 162, 235, 0.2)',
+                                        'rgba(255, 206, 86, 0.2)',
+                                        'rgba(75, 192, 192, 0.2)',
+                                        'rgba(153, 102, 255, 0.2)',
+                                        'rgba(255,159,64,0.2)'
+                                    ],
+                                    borderColor: [
+                                        'rgba(54, 162, 235, 1)',
+                                        'rgba(255, 206, 86, 1)',
+                                        'rgba(75, 192, 192, 1)',
+                                        'rgba(153, 102, 255, 1)',
+                                        'rgba(255, 159, 64, 1)'
+                                    ],
+                                    borderWidth: 2
+                                }]
+                            }
+                        });
+
+
+                    </script> <!-- creates the chart showing the user's top artist's followers -->
+                    <!--<script type="text/javascript" src="static/portfolio.js"></script> --> <!-- creates the chart showing the user's top artist's followers -->
+
+
+
+
+
+
+                {% endblock %}
 
                 </div>
                 <!-- stats -->

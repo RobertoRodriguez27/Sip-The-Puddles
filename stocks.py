@@ -121,13 +121,14 @@ class User(object):
         with open('json data/json top five.json', 'w', encoding='utf-8') as f:
             json.dump(parsed, f, ensure_ascii=False, indent=4)
 
-        plot.figure(figsize=(12, 6))  # set up the plot size and title
-        plot.title("Stockify")
-
-        sb.set_theme(style='darkgrid')  # set up the table color and data
-        sb.barplot(x="artists", y="followers", data=df_top_five)
-
-        plot.savefig('top_five.jpg')  # save plot image
+        # plot.figure(figsize=(12, 6))  # set up the plot size and title
+        # plot.title("Stockify")
+        #
+        # sb.set_theme(style='darkgrid')  # set up the table color and data
+        # sb.barplot(x="artists", y="followers", data=df_top_five)
+        #
+        # plot.savefig('top_five.jpg')  # save plot image
+        return df_top_five  # return the dataframe containing the artist names and their followers
 
     '''
     Gets the user's top 50 artists and extracts the genres
