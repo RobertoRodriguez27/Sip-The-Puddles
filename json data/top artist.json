@@ -6,7 +6,7 @@
             },
             "followers": {
                 "href": null,
-                "total": 1784769
+                "total": 1785313
             },
             "genres": [
                 "boy band",
@@ -44,7 +44,7 @@
             },
             "followers": {
                 "href": null,
-                "total": 6902938
+                "total": 6906378
             },
             "genres": [
                 "alternative hip hop"
@@ -79,7 +79,7 @@
             },
             "followers": {
                 "href": null,
-                "total": 3747880
+                "total": 3749389
             },
             "genres": [
                 "alternative rock",
@@ -118,7 +118,7 @@
             },
             "followers": {
                 "href": null,
-                "total": 617100
+                "total": 617401
             },
             "genres": [
                 "alt z",
@@ -155,7 +155,7 @@
             },
             "followers": {
                 "href": null,
-                "total": 11652518
+                "total": 11658768
             },
             "genres": [
                 "garage rock",
@@ -192,7 +192,7 @@
     "total": 50,
     "limit": 5,
     "offset": 0,
-    "previous": null,
     "href": "https://api.spotify.com/v1/me/top/artists?limit=5&offset=0",
+    "previous": null,
     "next": "https://api.spotify.com/v1/me/top/artists?limit=5&offset=5"
 }

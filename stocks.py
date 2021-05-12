@@ -4,9 +4,11 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy.util as util
 import json
 import pandas as pd
-import seaborn as sb
+# import seaborn as sb
 import matplotlib.pyplot as plot
 from user_info import client_secret, client, username
+from selenium import webdriver
+
 # from glom import glom
 
 '''
@@ -57,11 +59,13 @@ class User(object):
     token = None
     sp = None
     points = None
+    driver = None
 
     '''
     validates the user's token so the user can be allowed to change
     the scopes
     '''
+
     def validate_token(self, username, scope):
         self.token = util.prompt_for_user_token(username, scope)
         self.sp = spotipy.Spotify(auth=self.token)
@@ -80,13 +84,14 @@ class User(object):
         os.environ['SPOTIPY_REDIRECT_URI'] = 'http://localhost:8888/callback'
         SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
         self.validate_token(username, scope)
+        # set up selenium
+        PATH = 'C:\\Users\\rober\\Downloads\\edgedriver_win32\\msedgedriver.exe'
+        self.driver = webdriver.Edge(PATH)
 
     '''
-    gets the user's most listened to 5 artists from the past 6 months, puts the data into a json file,
-    and turns the json file into a data frame. Then creates a bar graph based on those artists' followers.
-    Makes a json file based on those results
-    TODO: With the json file of the results, I want to send it over to home.html so it can become a 
-    chart using chart.js
+    gets the user's top 5 artists from the past six months and ranks them based on
+    the amount of followers they have. Then sends the dataframe holding the artists and
+    their followers to main.py. Using Flask, the data is sent into LandingPage.html
     '''
     def users_top_five(self):
         self.validate_token('titooooo27', scope='user-top-read')
@@ -114,6 +119,9 @@ class User(object):
         # renames the columns
         df_top_five.columns = ['artists', 'followers']
 
+        # WARNING: using matplotlib is warned against by flask, and it is already not
+        # really being utilized, so it is looking to be cut. along with saving the dataframe as a json
+
         # saves the json file to then be used by home.html and made
         # into a bar graph using chart.js
         json_top_five = df_top_five.to_json(orient='records')
@@ -121,6 +129,7 @@ class User(object):
         with open('json data/json top five.json', 'w', encoding='utf-8') as f:
             json.dump(parsed, f, ensure_ascii=False, indent=4)
 
+        # since the data is being sent directly to the web page using flask
         # plot.figure(figsize=(12, 6))  # set up the plot size and title
         # plot.title("Stockify")
         #
@@ -129,6 +138,68 @@ class User(object):
         #
         # plot.savefig('top_five.jpg')  # save plot image
         return df_top_five  # return the dataframe containing the artist names and their followers
+
+    '''
+    GOAL: Top 5 artists but based of their monthly listeners
+        1) get the user's top artists, more importantly for their id's
+        2) add the artist id to the search
+        3) using selenium, webscrape the artist's monthly listeners
+        4) repeat until containing top 5 of the user's 
+    ISSUES:
+        1) takes the webpage a while to load since this will need to perform a webscrape
+        2) reloading page will cause issue 1 (storing values after first scraping and doing a try/catch and solve this)
+        3) web page is 'fragile.' can fail relatively easily (assuming has to do with scraping)
+        4) if UI changes, this falls apart
+        5) how can i make this run for other users since they will not have an edge webdriver (for scraping)
+            5a) possible and somehow even more stupid(?) solution: create a separate project that runs this 
+            method ~1 a week for as many artists as possible and enter it into a db. then on this project, perform
+            queries to the db to grab that information. will make the site more stable (at least i think) and will
+            make it faster 
+    SUCCESSES:
+        1) iterates through the user's top 5 and grabs the monthly listeners
+        2) users will be able to see something that better represents the artists popularity
+        3) does actually fluctuate over time
+        4) makes me kind of proud
+    OVERALL:
+        I am not too sure if this is a good solution, however, I don't really see a viable reason to stop since
+        this is more for my own learning. I will have to think over implementing 5a is really going to be worth it.
+    '''
+    def top_monthly(self):
+        # 1)
+        self.validate_token('titooooo27', scope='user-top-read')
+        sp = self.sp
+
+        # makes a json file from the results of the artist's top 5 artists. Then puts it into a df and deletes the
+        # columns that are not necessary
+        unfiltered_top_monthly = create_and_organize_files(
+            sp.current_user_top_artists(limit=5, time_range='medium_term'), 'json data', '', 'top monthly.json')
+        df_top_monthly = pd.json_normalize(data=unfiltered_top_monthly, record_path=['items'])
+        df_top_monthly.pop('external_urls.spotify')
+        df_top_monthly.pop('followers.href')
+        df_top_monthly.pop('followers.total')
+        df_top_monthly.pop('popularity')
+        # df_top_monthly.pop('id')
+        df_top_monthly.pop('genres')
+        df_top_monthly.pop('href')
+        df_top_monthly.pop('images')
+        df_top_monthly.pop('type')
+        df_top_monthly.pop('uri')
+        # 2 - 4) side note class with monthly is _85aaee9fc23ca61102952862a10b544c-scss
+        listeners = []
+        for id in df_top_monthly['id']:  # 4)
+            self.driver.get(f'https://open.spotify.com/artist/{id}')  # 2)
+            self.driver.implicitly_wait(3)
+            monthly = self.driver.find_element_by_class_name(
+                '_85aaee9fc23ca61102952862a10b544c-scss').get_attribute('innerHTML').splitlines()[0]  # 3)
+
+            monthly_num = monthly.split(' ')[0]  # clean the monthly listeners so only the integer remains
+            monthly_num = monthly_num.replace(',', '')
+            listeners.append(int(monthly_num))  # enters only the numbers into the monthly listeners
+
+        df_top_monthly['monthly listeners'] = listeners  # add the artists monthly listeners to the dataframe
+        df_top_monthly.pop('id')  # pop off the id. no longer relevant
+        df_top_monthly.columns = ['artists', 'monthly listeners']
+        return df_top_monthly
 
     '''
     Gets the user's top 50 artists and extracts the genres
@@ -185,9 +256,18 @@ class User(object):
         plot.savefig('genres.jpg')
 
     '''
+    User places a bet on an artist they like. they also put down how long the 
+    bet will take place for 
+    '''
+
+    def bets(self):
+        pass
+
+    '''
     Search feature. uses the artist query to find the 5 closest artists to the query
     and returns their name, popularity, and artist id
     '''
+
     def search_artist(self, query=None):
         if not query:
             raise Exception('you need to search an artist')
@@ -222,6 +302,7 @@ class User(object):
 
 pt = User(client, client_secret, username,
           scope='user-read-recently-played')  # replace with client id, client secret, and username
-pt.users_top_five()
+# pt.users_top_five()
+pt.top_monthly()
 # pt.genres()
 # pt.search_artist('The Strokes')
