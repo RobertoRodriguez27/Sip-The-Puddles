@@ -4,7 +4,6 @@ from personal.user_info import client_secret, client, username
 from monthly import Rework
 
 app = Flask(__name__)
-# app.config
 
 # user = User(client_id=client, client_secret=client_secret, username=username)
 re = Rework(client_id=client, client_secret_id=client_secret, username=username)
