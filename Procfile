@@ -1,1 +1,1 @@
-web: gunicorn Stockify.wsgi
+web: gunicorn app:app
