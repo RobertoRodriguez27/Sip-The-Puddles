@@ -91,7 +91,7 @@ class User(object):
     '''
     gets the user's top 5 artists from the past six months and ranks them based on
     the amount of followers they have. Then sends the dataframe holding the artists and
-    their followers to main.py. Using Flask, the data is sent into LandingPage.html
+    their followers to app.py. Using Flask, the data is sent into LandingPage.html
     '''
     def users_top_five(self):
         self.validate_token(username=username, scope='user-top-read')
