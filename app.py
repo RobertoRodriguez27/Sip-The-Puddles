@@ -19,5 +19,5 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, use_reloader=False, port=5027)
+    app.run(debug=True, use_reloader=False, port=5027, host='127.0.0.2')
 
