@@ -57,11 +57,8 @@
 
 
                 {% block javascript %}
-                    <!-- <script type="text/javascript" src="{{url_for('static', filename='portfolio.js')}}"> -->
                     <script>
                         let ctx = document.getElementById('UserTopArtists');
-                        //art_label = a_label;
-                        //art_data = a_data;
                         art_label = JSON.parse({{ a_label | tojson }});
                         art_data = JSON.parse({{ a_data | tojson }});
                         var topArtists = new Chart(ctx, {
@@ -89,16 +86,7 @@
                                 }]
                             }
                         });
-
-
                     </script> <!-- creates the chart showing the user's top artist's followers -->
-                    <!--<script type="text/javascript" src="static/portfolio.js"></script> --> <!-- creates the chart showing the user's top artist's followers -->
-
-
-
-
-
-
                 {% endblock %}
 
                 </div>

@@ -5,7 +5,7 @@ import spotipy.util as util
 import json
 import pandas as pd
 import max_heap as rank
-from user_info import client_secret, client, username
+from personal.user_info import client_secret, client, username
 
 
 def fix_illegal_folder_name(folder1, folder2):

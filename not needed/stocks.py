@@ -6,7 +6,7 @@ import json
 import pandas as pd
 # import seaborn as sb
 import matplotlib.pyplot as plot
-from user_info import client_secret, client, username
+from personal.user_info import client_secret, client, username
 from selenium import webdriver
 
 # from glom import glom
@@ -94,7 +94,7 @@ class User(object):
     their followers to main.py. Using Flask, the data is sent into LandingPage.html
     '''
     def users_top_five(self):
-        self.validate_token('titooooo27', scope='user-top-read')
+        self.validate_token(username=username, scope='user-top-read')
         sp = self.sp
 
         # makes a json file from the results of the artist's top 5 artists. Then puts it into a df and deletes the
@@ -126,7 +126,7 @@ class User(object):
         # into a bar graph using chart.js
         json_top_five = df_top_five.to_json(orient='records')
         parsed = json.loads(json_top_five)
-        with open('json data/json top five.json', 'w', encoding='utf-8') as f:
+        with open('../json data/json top five.json', 'w', encoding='utf-8') as f:
             json.dump(parsed, f, ensure_ascii=False, indent=4)
 
         # since the data is being sent directly to the web page using flask
@@ -166,7 +166,7 @@ class User(object):
     '''
     def top_monthly(self):
         # 1)
-        self.validate_token('titooooo27', scope='user-top-read')
+        self.validate_token(username=username, scope='user-top-read')
         sp = self.sp
 
         # makes a json file from the results of the artist's top 5 artists. Then puts it into a df and deletes the
@@ -188,6 +188,7 @@ class User(object):
         listeners = []
         for id in df_top_monthly['id']:  # 4)
             self.driver.get(f'https://open.spotify.com/artist/{id}')  # 2)
+            print(id)
             self.driver.implicitly_wait(3)
             monthly = self.driver.find_element_by_class_name(
                 '_85aaee9fc23ca61102952862a10b544c-scss').get_attribute('innerHTML').splitlines()[0]  # 3)
@@ -210,7 +211,7 @@ class User(object):
     '''
     def genres(self):
 
-        self.validate_token('titooooo27', scope='user-top-read')
+        self.validate_token(username=username, scope='user-top-read')
         sp = self.sp
 
         unfiltered_top_50 = create_and_organize_files(sp.current_user_top_artists(limit=50, time_range='medium_term'),
@@ -233,7 +234,7 @@ class User(object):
         # create a pie chart using chart.js
         json_genres = df_genres.to_json(orient='records')
         parsed = json.loads(json_genres)
-        with open('json data/json genres.json', 'w', encoding='utf-8') as f:
+        with open('../json data/json genres.json', 'w', encoding='utf-8') as f:
             json.dump(parsed, f, ensure_ascii=False, indent=4)
 
         # grabs the genres from the user's most listened artists and counts them
@@ -261,6 +262,7 @@ class User(object):
     '''
 
     def bets(self):
+        
         pass
 
     '''
