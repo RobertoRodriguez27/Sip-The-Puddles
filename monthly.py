@@ -60,6 +60,6 @@ class Rework(object):
         pass
 
 
-re = Rework(client, client_secret, username)
-re.rework_monthly()
+# re = Rework(client, client_secret, username)
+# re.rework_monthly()
 
