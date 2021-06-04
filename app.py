@@ -1,5 +1,5 @@
 from flask import Flask, render_template, json
-from flask_sockets import Sockets
+# from flask_sockets import Sockets
 import os
 # from stocks import User
 from personal.user_info import client_secret, client, username
@@ -8,7 +8,7 @@ from monthly import Rework
 app = Flask(__name__)
 
 # user = User(client_id=client, client_secret=client_secret, username=username)
-re = Rework(client_id=client, client_secret_id=client_secret, username=username)
+# re = Rework(client_id=client, client_secret_id=client_secret, username=username)
 
 
 @app.route("/")
