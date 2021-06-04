@@ -52,8 +52,8 @@ class Rework(object):
             link = self.api_req + endpoint + item['id']
             response = requests.get(link)
             raw = response.json()
-            temp = json.loads(str(raw['data']['monthly_listeners']['listener_count']))
-            number = int(temp)
+            # temp = json.loads(str(raw['data']['monthly_listeners']['listener_count']))
+            number = int(raw['data']['monthly_listeners']['listener_count'])
             listeners.append(number)
 
         art_monthly = {'artists': art_names,
