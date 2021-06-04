@@ -4,6 +4,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy.util as util
 import requests
 import pandas as pd
+import json
 from personal.user_info import client_secret, client, username
 
 
@@ -50,8 +51,8 @@ class Rework(object):
             link = self.api_req + endpoint + item['id']
             response = requests.get(link)
             raw = response.json()
-            val = int(raw['data']['monthly_listeners']['listener_count'])
-            number = val
+            temp = json.loads(str(raw['data']['monthly_listeners']['listener_count']))
+            number = int(temp)
             listeners.append(number)
 
         df = pd.DataFrame(list(zip(art_names, listeners)), columns=['artists', 'monthly listeners'])
@@ -61,6 +62,6 @@ class Rework(object):
         pass
 
 
-# re = Rework(client_id=client, client_secret_id=client_secret, username=username)
-# work = re.rework_monthly()
-# print("dont worry")
+re = Rework(client_id=client, client_secret_id=client_secret, username=username)
+work = re.rework_monthly()
+print(work)
