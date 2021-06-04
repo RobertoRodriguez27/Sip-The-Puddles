@@ -17,7 +17,7 @@ class Rework(object):
     points = None
     api_req = 'https://api.t4ils.dev/'
 
-    def __init__(self, client_id, client_secret_id, username, scope='user-read-currently-playing', *args, **kwargs):
+    def __init__(self, client_id, client_secret_id, username, scope='user-top-read', *args, **kwargs):
         super().__init__(*args, **kwargs)
         if not client_id or not client_secret_id or not username:
             raise Exception('Missing either client_id, client_secret, or username')
@@ -38,7 +38,8 @@ class Rework(object):
 
     def rework_monthly(self):
         endpoint = 'artistInfo?artistid='
-        self.validate_token(username=username, scope='user-top-read')
+
+        # self.validate_token(username=username, scope='user-top-read')
         sp = self.sp
 
         unfiltered_top_monthly = sp.current_user_top_artists(limit=5, time_range='medium_term')
@@ -62,6 +63,6 @@ class Rework(object):
         pass
 
 
-re = Rework(client_id=client, client_secret_id=client_secret, username=username)
-work = re.rework_monthly()
-print(work)
+# re = Rework(client_id=client, client_secret_id=client_secret, username=username)
+# work = re.rework_monthly()
+# print(work)
