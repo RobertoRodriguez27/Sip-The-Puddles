@@ -56,7 +56,10 @@ class Rework(object):
             number = int(temp)
             listeners.append(number)
 
-        df = pd.DataFrame(list(zip(art_names, listeners)), columns=['artists', 'monthly listeners'])
+        art_monthly = {'artists': art_names,
+                       'monthly listeners': listeners}
+
+        df = pd.DataFrame(art_monthly, columns=['artists', 'monthly listeners'])
         return df
 
     def polls(self):
